@@ -1,0 +1,30 @@
+{
+	"name": "expensetracker",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@material-ui/core": "^4.12.4",
+		"@material-ui/icons": "^4.11.3",
+		"@material-ui/lab": "^4.0.0-alpha.61",
+		"@speechly/react-client": "^2.2.3",
+		"@speechly/react-ui": "^2.7.4",
+		"@types/react": "^17.0.1",
+		"@types/react-dom": "^17.0.1",
+		"chart.js": "^4.2.1",
+		"react": "^17.0.1",
+		"react-chartjs-2": "^5.2.0",
+		"react-dom": "^17.0.1",
+		"uuid": "^9.0.0"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-react": "^2.2.0",
+		"typescript": "^4.6.4",
+		"vite": "^3.2.3"
+	}
+}
