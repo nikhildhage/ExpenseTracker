@@ -16,7 +16,7 @@
 		"@speechly/react-ui": "^2.7.4",
 		"@types/react": "^17.0.1",
 		"@types/react-dom": "^17.0.1",
-		"chart.js": "^4.2.1",
+		"chart.js": "^4.4.3",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
 		"uuid": "^9.0.0"
