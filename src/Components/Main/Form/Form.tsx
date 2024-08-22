@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import { TextField, Typography, Grid, Button, FormControl, InputLabel, Select, MenuItem } from "@material-ui/core";
+import { TextField, Typography, Grid, Button, FormControl, InputLabel, Select, MenuItem } from '@material-ui/core';
 
-import useStyles from "./formStyles";
+import useStyles from './formStyles';
 type Props = {};
 
 const Form = (props: Props) => {
@@ -35,10 +35,10 @@ const Form = (props: Props) => {
 					</Select>
 				</FormControl>
 			</Grid>
-			<Grid xs={6}>
+			<Grid item xs={6}>
 				<TextField type="number" label="Amount" fullWidth />
 			</Grid>
-			<Grid xs={6}>
+			<Grid item xs={6}>
 				<TextField type="date" label="Date" fullWidth />
 			</Grid>
 			<Button className={classes.button} variant="outlined" color="primary" fullWidth>
