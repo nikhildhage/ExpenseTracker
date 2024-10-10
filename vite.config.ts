@@ -8,6 +8,8 @@ export default defineConfig({
 		open: 'main.tsx',
 	},
 	build: {
+		minify: 'terser',
+		sourcemap: true,
 		outDir: 'dist',
 	},
 });
