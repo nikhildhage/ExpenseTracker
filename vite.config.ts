@@ -9,5 +9,6 @@ export default defineConfig({
 		minify: 'terser',
 		sourcemap: true,
 		outDir: 'dist',
+		emptyOutDir: true,
 	},
 });
