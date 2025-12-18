@@ -1,51 +1,86 @@
-import React from 'react';
-
-import { TextField, Typography, Grid, Button, FormControl, InputLabel, Select, MenuItem } from '@material-ui/core';
+import { useState } from 'react';
+import {
+  TextField,
+  Typography,
+  Grid2,
+  Button,
+  FormControl,
+  InputLabel,
+  Select,
+  MenuItem
+} from '@mui/material';
 
 import useStyles from './formStyles';
+
 type Props = {};
 
 const Form = (props: Props) => {
-	const classes = useStyles();
+  const classes = useStyles();
 
-	return (
-		<Grid container spacing={2}>
-			<Grid item xs={12}>
-				<Typography align="center" variant="subtitle2" gutterBottom>
-					...
-				</Typography>
-			</Grid>
-			<Grid item xs={6}>
-				<FormControl fullWidth>
-					<InputLabel variant="filled">Type</InputLabel>
-					<Select>
-						<MenuItem value="Income">Income</MenuItem>
-						<MenuItem value="Expense">Expense</MenuItem>
-					</Select>
-				</FormControl>
-			</Grid>
-			<Grid item xs={6}>
-				<FormControl fullWidth>
-					<InputLabel variant="filled">Category</InputLabel>
-					<Select>
-						<MenuItem value="Business">Business</MenuItem>
-						<MenuItem value="Salary">Salary</MenuItem>
-						<MenuItem value="Shopping">Shopping</MenuItem>
-						<MenuItem value="Entertainment">Entertainment</MenuItem>
-					</Select>
-				</FormControl>
-			</Grid>
-			<Grid item xs={6}>
-				<TextField type="number" label="Amount" fullWidth />
-			</Grid>
-			<Grid item xs={6}>
-				<TextField type="date" label="Date" fullWidth />
-			</Grid>
-			<Button className={classes.button} variant="outlined" color="primary" fullWidth>
-				Create
-			</Button>
-		</Grid>
-	);
+  // Default values for controlled selects
+  const [type, setType] = useState('Income');
+  const [category, setCategory] = useState('Business');
+
+  return (
+    <Grid2 container spacing={2}>
+      <Grid2 size={{ xs: 12 }}>
+        <Typography align="center" variant="subtitle2" gutterBottom>
+          ...
+        </Typography>
+      </Grid2>
+
+      <Grid2 size={{ xs: 12, sm: 12, md: 6, lg: 6 }}>
+        <FormControl fullWidth>
+          <InputLabel variant="filled">Type</InputLabel>
+          <Select
+            value={type}
+            onChange={(e) => setType(e.target.value)}
+          >
+            <MenuItem value="Income">Income</MenuItem>
+            <MenuItem value="Expense">Expense</MenuItem>
+          </Select>
+        </FormControl>
+      </Grid2>
+
+      <Grid2 size={{ xs: 12, sm: 12, md: 6, lg: 6 }}>
+        <FormControl fullWidth>
+          <InputLabel variant="filled">Category</InputLabel>
+          <Select
+            value={category}
+            onChange={(e) => setCategory(e.target.value)}
+          >
+            <MenuItem value="Business">Business</MenuItem>
+            <MenuItem value="Salary">Salary</MenuItem>
+            <MenuItem value="Shopping">Shopping</MenuItem>
+            <MenuItem value="Entertainment">Entertainment</MenuItem>
+          </Select>
+        </FormControl>
+      </Grid2>
+
+      <Grid2 size={{ xs: 12, sm: 12, md: 6, lg: 6 }}>
+        <InputLabel variant="filled"> Amount</InputLabel>
+        <FormControl fullWidth>
+          <TextField type="number" fullWidth />
+        </FormControl>
+      </Grid2>
+
+      <Grid2 size={{ xs: 12, sm: 12, md: 6, lg: 6 }}>
+        <InputLabel variant="filled">Date</InputLabel>
+        <FormControl fullWidth>
+          <TextField type="date" fullWidth />
+        </FormControl>
+      </Grid2>
+
+      <Button
+        color="primary"
+        className={classes.button}
+        variant="contained"
+        fullWidth
+      >
+        <Typography variant="h4">Create</Typography>
+      </Button>
+    </Grid2>
+  );
 };
 
 export default Form;

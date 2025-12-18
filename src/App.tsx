@@ -1,35 +1,28 @@
 import React from 'react';
-import { Grid } from '@material-ui/core';
+import {Grid2 ,Paper} from '@mui/material';
 import Details from './Components/Details/Details';
 import Main from './Components/Main/Main';
 import useStyles from './appStyles';
+
 
 const App = () => {
 	const classes = useStyles();
 
 	return (
-		<div>
-			<Grid
-				container
-				className={classes.grid}
-				spacing={2}
-				alignContent="center"
-				justifyContent="center"
-				style={{
-					height: '100vh',
-				}}
-			>
-				<Grid item={true} sm={12} md={3}>
-					<Details title="Income" />
-				</Grid>
-				<Grid item={true} sm={12} md={3}>
-					<Main title="Form" />
-				</Grid>
-				<Grid item={true} sm={12} md={3}>
-					<Details title="Expense" />
-				</Grid>
-			</Grid>
-		</div>
+		<Paper  elevation={8}>
+			<Grid2 className={classes.Grid2} container spacing={3} alignItems="center" justifyContent="center" sx={{ minHeight: '100vh', padding: 2  }}>
+				<Grid2 size={{ xs: 12, sm: 12, md: 6, lg: 3, xl: 3 }}>
+					<Details title="Income" type="Income"/>
+				</Grid2>
+				<Grid2 size={{ xs: 12, sm: 12, md: 6, lg: 3, xl: 3 }} sx={{ textAlign: 'center' }}>
+					<Main title="Form" subheader="Powered by Speechify" />
+				</Grid2>
+				<Grid2 size={{ xs: 12, sm: 12, md: 6, lg: 3, xl: 3 }}>
+					<Details title="Expense" type="Expense" />
+				</Grid2>
+			</Grid2>
+		</Paper>
+		
 	);
 };
 

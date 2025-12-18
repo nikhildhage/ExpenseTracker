@@ -5,5 +5,5 @@ html {
 }
 
 body {
-	background-color: lightgrey;
+	background: url('../src/assets/appBG.jpg');
 }

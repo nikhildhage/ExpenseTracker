@@ -1,8 +1,9 @@
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@mui/styles';
+import { Theme } from '@mui/material/styles';
 
-export default makeStyles((theme) => ({
+export default makeStyles((theme: Theme) => ({
 	main: {
-		backgroundColor: 'WhiteSmoke',
+		backgroundColor: '#fafafa',
 		marginTop: 0,
 		paddingTop: 0,
 	},
@@ -24,7 +25,7 @@ export default makeStyles((theme) => ({
 		paddingTop: 0,
 	},
 	divider: {
-		margin: '20px 0',
+		margin: '20px 20px, 0, 0',
 		padding: '0',
 	},
 }));

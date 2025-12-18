@@ -1,4 +1,4 @@
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@mui/styles';
 
 export default makeStyles(() => ({
 	radioGroup: {
@@ -11,7 +11,7 @@ export default makeStyles(() => ({
 		backgroundColor: 'skyblue',
 		color: 'white',
 	},
-	grid: {
+	Grid2: {
 		//paddingTop: 0,
 		//paddingLeft: "20px",
 		//paddingRight: "20px",

@@ -1,33 +1,36 @@
 import React from 'react';
-import { Card, CardHeader, CardContent, Typography, Grid, Divider } from '@material-ui/core';
+import { Card, CardHeader, CardContent, Typography, Grid2, Divider } from '@mui/material';
 import Form from './Form/Form';
 import useStyles from './mainStyles';
-type Props = {
+
+type MainProps = {
 	title: string;
+	subheader:string
 };
 
-const Main = (props: Props) => {
+const Main = (props: MainProps) => {
 	const classes = useStyles();
+	let totalBalance="$100"
 	return (
 		<Card className={classes.main} elevation={24}>
-			<CardHeader title={props.title} subheader="Powered by Speechly" />
+			<CardHeader title={props.title} subheader={props.subheader} />
 			<CardContent>
 				<Typography align="center" variant="h5">
-					Total Balance $100
+					{totalBalance}
 				</Typography>
-				<Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px' }}>
+				<Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '10px' }}>
 					{/** Info Card */}
 					Try saying :add income for $100
 				</Typography>
+				<br />
 				<Divider />
+				<br />
 				<Form />
 			</CardContent>
 			<CardContent className={classes.cardContent}>
-				<Grid container spacing={2}>
-					<Grid item xs={12}>
-						{/**List */}
-					</Grid>
-				</Grid>
+				<Grid2 container spacing={2}>
+					<Grid2 size={{ xs: 12 }}>{/**List */}</Grid2>
+				</Grid2>
 			</CardContent>
 		</Card>
 	);

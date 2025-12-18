@@ -42,5 +42,6 @@ COPY . .
 # expose port 5173 to tell Docker that the container listens on the specified network ports at runtime
 EXPOSE 5173
 
+RUN npm run build 
 # command to run the app
 CMD npm run dev
