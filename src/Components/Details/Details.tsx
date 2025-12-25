@@ -14,10 +14,10 @@ type DetailsProps = {
 
 
 
-const Details = (props: DetailsProps) => {
+const Details = ({title , type }: DetailsProps) => {
 	const classes = useStyles();
-	const backgroundColors = props.type==='Income' ? incomeColors : expenseColors;
-	const chartLabels = props.type==='Income'? incomeCategoryLabels : expenseCategoryLabels;
+	const backgroundColors = type==='Income' ? incomeColors : expenseColors;
+	const chartLabels = type==='Income'? incomeCategoryLabels : expenseCategoryLabels;
 	let totalValue="$50"
 	const dChartData = [12, 19, 3, 5, 2, 3];
 
@@ -38,8 +38,8 @@ const Details = (props: DetailsProps) => {
 	};
 
 	return (
-		<Card className={props.type==='Income' ? classes.income : classes.expense} elevation={24}>
-			<CardHeader title={props.title} />
+		<Card className={type==='Income' ? classes.income : classes.expense} elevation={24}>
+			<CardHeader title={title} />
 			<CardContent>
 				<Typography variant="h5">{totalValue}</Typography>
 				<Doughnut data={chartData}></Doughnut>
