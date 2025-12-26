@@ -12,14 +12,43 @@ import {
 
 import useStyles from './formStyles';
 
-type Props = {};
+type FormProps = {
+  type :string,
+  category :string, 
+  amount:number,
+  date: string
+};
 
-const Form = (props: Props) => {
+const formData: FormProps = {
+  type: 'Income',
+  category: 'Business',
+  amount:50,
+  date:'2025-12-10'
+};
+
+ 
+const Form = () => {
   const classes = useStyles();
 
   // Default values for controlled selects
   const [type, setType] = useState('Income');
-  const [category, setCategory] = useState('Business');
+  const [category, setCategory] = useState("Business");
+  const [amount, setAmount] = useState(50);
+  const [date, setDate] = useState('2025-12-10');
+  
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement> | React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault(); // prevent page reload
+    // Build the object from your form state
+    
+
+    // Do something with the form data
+    console.log(formData);
+  };
+
+  const getFormData=()=>{
+    return formData
+  }
+
 
   return (
     <Grid2 container spacing={2}>
@@ -32,6 +61,7 @@ const Form = (props: Props) => {
       <Grid2 size={{ xs: 12, sm: 12, md: 6, lg: 6 }}>
         <FormControl fullWidth>
           <InputLabel variant="filled">Type</InputLabel>
+          <br />
           <Select
             value={type}
             onChange={(e) => setType(e.target.value)}
@@ -45,6 +75,7 @@ const Form = (props: Props) => {
       <Grid2 size={{ xs: 12, sm: 12, md: 6, lg: 6 }}>
         <FormControl fullWidth>
           <InputLabel variant="filled">Category</InputLabel>
+          <br />
           <Select
             value={category}
             onChange={(e) => setCategory(e.target.value)}
@@ -59,22 +90,27 @@ const Form = (props: Props) => {
 
       <Grid2 size={{ xs: 12, sm: 12, md: 6, lg: 6 }}>
         <InputLabel variant="filled"> Amount</InputLabel>
+        <br />
         <FormControl fullWidth>
-          <TextField type="number" fullWidth />
+          <TextField type="number"  
+          value={amount} onChange={(e) => setAmount(Number(e.target.value))}
+          />
         </FormControl>
       </Grid2>
 
       <Grid2 size={{ xs: 12, sm: 12, md: 6, lg: 6 }}>
         <InputLabel variant="filled">Date</InputLabel>
+        <br />
         <FormControl fullWidth>
-          <TextField type="date" fullWidth />
+          <TextField type="date"value={date} onChange={(e) => setDate(e.target.value)}/>
         </FormControl>
       </Grid2>
 
-      <Button
+      <Button 
         color="primary"
         className={classes.button}
         variant="contained"
+        onClick={handleSubmit}
         fullWidth
       >
         <Typography variant="h4">Create</Typography>
