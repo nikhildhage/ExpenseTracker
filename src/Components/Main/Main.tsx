@@ -8,12 +8,12 @@ type MainProps = {
 	subheader:string
 };
 
-const Main = (props: MainProps) => {
+const Main = ({title, subheader}: MainProps) => {
 	const classes = useStyles();
 	let totalBalance="$100"
 	return (
 		<Card className={classes.main} elevation={24}>
-			<CardHeader title={props.title} subheader={props.subheader} />
+			<CardHeader title={title} subheader={subheader} />
 			<CardContent>
 				<Typography align="center" variant="h5">
 					{totalBalance}
