@@ -25,7 +25,7 @@ const Main = (props: MainProps) => {
 				<br />
 				<Divider />
 				<br />
-				<Form />
+				<Form  />
 			</CardContent>
 			<CardContent className={classes.cardContent}>
 				<Grid2 container spacing={2}>
