@@ -23,9 +23,4 @@ export default makeStyles((theme: any) => ({
 			paddingBottom: '200px',
 		},
 	},
-	Grid2: {
-		'& > *': {
-			margin: theme.spacing(3),
-		},
-	},
 }));

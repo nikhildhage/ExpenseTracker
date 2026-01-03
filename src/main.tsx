@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { blueGrey } from '@mui/material/colors';
 
 const rootElement = document.getElementById('root')!; // Use non-null assertion
 const root = ReactDOM.createRoot(rootElement);
 
 export const theme = createTheme({
 	palette: {
-		mode: 'light',
+		mode:"light",
 		primary: {
 			main: '#C0C0C0', // A nice blue color
 			light: '#6ec6ff',
@@ -20,7 +21,7 @@ export const theme = createTheme({
 			dark: '#c60055',
 		},
 		background: {
-			default: ' #C0C0C0 ',
+			default:'#000838',
 		},
 		text: {
 			primary: '#212121',

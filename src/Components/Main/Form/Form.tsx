@@ -19,14 +19,9 @@ type FormProps = {
   date: string
 };
 
-const formData: FormProps = {
-  type: 'Income',
-  category: 'Business',
-  amount:50,
-  date:'2025-12-10'
-};
-
  
+
+
 const Form = () => {
   const classes = useStyles();
 
@@ -35,20 +30,24 @@ const Form = () => {
   const [category, setCategory] = useState("Business");
   const [amount, setAmount] = useState(50);
   const [date, setDate] = useState('2025-12-10');
+
+  const formData:FormProps= {
+    type,
+    category,
+    amount,
+    date,
+  };
   
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement> | React.MouseEvent<HTMLButtonElement>) => {
+  const handleSubmit = (e: React.FormEvent | React.MouseEvent) => {
     e.preventDefault(); // prevent page reload
     // Build the object from your form state
     
-
-    // Do something with the form data
-    console.log(formData);
+    console.log(formData)
   };
 
   const getFormData=()=>{
-    return formData
+    return formData;
   }
-
 
   return (
     <Grid2 container spacing={2}>
