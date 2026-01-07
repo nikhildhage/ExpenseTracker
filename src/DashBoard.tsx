@@ -1,5 +1,6 @@
 
 import React from 'react'
+import "./index.css";
 import {Grid2, Typography} from '@mui/material';
 import Details from './Components/Details/Details';
 import Main from './Components/Main/Main';
