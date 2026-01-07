@@ -1,9 +1,35 @@
-import React from 'react';
-import { Card, CardHeader, CardContent, Typography } from '@mui/material';
+import React, { Suspense } from 'react';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import { Doughnut } from 'react-chartjs-2';
 import useStyles from './detailStyles';
 import { incomeColors, expenseColors, incomeCategoryLabels, expenseCategoryLabels } from '../../Constants/categories';
+
+// ---------------- MUI Components ----------------
+const Card = React.lazy(async () => {
+  const module = await import('@mui/material/Card');
+  return { default: module.default };
+});
+
+const CardHeader = React.lazy(async () => {
+  const module = await import('@mui/material/CardHeader');
+  return { default: module.default };
+});
+
+const CardContent = React.lazy(async () => {
+  const module = await import('@mui/material/CardContent');
+  return { default: module.default };
+});
+
+const Typography = React.lazy(async () => {
+  const module = await import('@mui/material/Typography');
+  return { default: module.default };
+});
+
+// ---------------- Chart.js Doughnut ----------------
+const Doughnut = React.lazy(async () => {
+  const module = await import('react-chartjs-2');
+  return { default: module.Doughnut }; // Named export → default
+});
+
                                                                                   
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -38,13 +64,16 @@ const Details = ({title , type }: DetailsProps) => {
 	};
 
 	return (
-		<Card className={type==='Income' ? classes.income : classes.expense} elevation={24}>
-			<CardHeader title={title} />
-			<CardContent>
-				<Typography variant="h5">{totalValue}</Typography>
-				<Doughnut data={chartData}></Doughnut>
-			</CardContent>
-		</Card>
+		<Suspense fallback={<div>Loading chart...</div>}>
+			<Card className={type==='Income' ? classes.income : classes.expense} elevation={24}>
+				<CardHeader title={title} />
+				<CardContent>
+					<Typography variant="h5">{totalValue}</Typography>
+					<Doughnut data={chartData}></Doughnut>
+				</CardContent>
+			</Card>
+		</Suspense>
+			
 	);
 };
 
