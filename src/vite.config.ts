@@ -12,8 +12,20 @@ export default defineConfig({
 		emptyOutDir: true,
 		rollupOptions: {
 			output: {
-				manualChunks: {
-					'react-vendor': ['react', 'react-dom'],
+				manualChunks(id) {
+					
+          			if (id.includes('node_modules/@mui')) {
+           				return 'mui-vendor';
+          			}
+
+          			if (id.includes('node_modules/chart.js') || id.includes('node_modules/			react-chartjs-2')) {
+            			return 'chart-vendor';
+          			}
+
+					if(id.includes('node_modules/react')){
+						return 'react-vendor';
+					}
+					// Default: let Vite auto-split
 				},
 			},
 		},
