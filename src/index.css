@@ -1,6 +1,3 @@
-
-
-
 #root,
 body,
 html {
@@ -8,5 +5,5 @@ html {
 }
 
 body {
-	background-color:lightgrey !important
+	background-color: lightgrey !important;
 }

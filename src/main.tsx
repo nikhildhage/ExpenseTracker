@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(rootElement);
 
 export const theme = createTheme({
 	palette: {
-		mode:"light",
+		mode: 'light',
 		primary: {
 			main: '#C0C0C0', // A nice blue color
 			light: '#6ec6ff',
@@ -21,7 +21,7 @@ export const theme = createTheme({
 			dark: '#c60055',
 		},
 		background: {
-			default:'#000838',
+			default: '#000838',
 		},
 		text: {
 			primary: '#212121',
@@ -31,7 +31,7 @@ export const theme = createTheme({
 	typography: {
 		fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
 		h1: {
-			fontSize: '2.5rem',               
+			fontSize: '2.5rem',
 			fontWeight: 500,
 		},
 		button: {
@@ -44,6 +44,6 @@ export const theme = createTheme({
 });
 root.render(
 	<ThemeProvider theme={theme}>
-		<App/>
-	</ThemeProvider>
+		<App />
+	</ThemeProvider>,
 );
