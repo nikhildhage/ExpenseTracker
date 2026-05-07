@@ -1,7 +1,7 @@
 export const incomeColors = ['#0bc77e', '#04e38d', '#00ff9d'];
 export const expenseColors = ['#b50d12', '#bf2f1f', '#c9452c', '#d3583a', '#dc6a48', '#e57c58', '#ee8d68', '#f79d79', '#ffae8a', '#cc474b', '#f55b5f'];
 
-export const incomeCategoryLabels = ['Business', 'Investments', 'Extra income', 'Deposits', 'Lottery', 'Gits', 'Salary', 'Savings', 'Rental Income'];
+export const incomeCategoryLabels = ['Business', 'Investments', 'Extra income', 'Deposits', 'Lottery', 'Gifts', 'Salary', 'Savings', 'Rental Income'];
 export const expenseCategoryLabels = ['Bills', 'Car', 'Clothes', 'Travel', 'Food ', 'Shopping', 'House', 'Entertainment', 'Phone', 'Pets', 'Other'];
 
 export const incomeCategories = [
