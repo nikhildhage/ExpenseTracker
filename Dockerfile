@@ -15,10 +15,10 @@ USER app
 # set the working directory to /app
 WORKDIR /app
 
-# copy package.json and package-lock.json to the working directory
+# copy package.json and pnpm-lock.yaml to the working directory
 # This is done before copying the rest of the files to take advantage of Docker’s cache
-# If the package.json and package-lock.json files haven’t changed, Docker will use the cached dependencies
-COPY package*.json ./
+# If the package.json and pnpm-lock.yaml files haven’t changed, Docker will use the cached dependencies
+COPY package.json pnpm-lock.yaml ./
 
 # sometimes the ownership of the files in the working directory is changed to root
 # and thus the app can't access the files and throws an error -> EACCES: permission denied
@@ -30,11 +30,14 @@ USER root
 # chown command changes the user and/or group ownership of for given file.
 RUN chown -R app:app .
 
+# enable pnpm via corepack (bundled with Node 20) while still root
+RUN corepack enable
+
 # change the user back to the app user
 USER app
 
-# install dependencies
-RUN npm install
+# install dependencies with pnpm using the lockfile for reproducible builds
+RUN pnpm install --frozen-lockfile
 
 # copy the rest of the files to the working directory
 COPY . .
@@ -42,6 +45,6 @@ COPY . .
 # expose port 5173 to tell Docker that the container listens on the specified network ports at runtime
 EXPOSE 5173
 
-RUN npm run build 
+RUN pnpm run build
 # command to run the app
-CMD npm run dev
+CMD ["pnpm", "dev"]
