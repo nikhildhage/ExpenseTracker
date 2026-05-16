@@ -1,0 +1,86 @@
+{
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/src/App.tsx": {
+    "mtime": 1778215959.8302448,
+    "hash": "36e1b70987472d885b5bbe140f14bd93"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/src/appStyles.ts": {
+    "mtime": 1769722186.1331346,
+    "hash": "50752d4f634b8359c3e5855c9b8d2272"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/src/DashBoard.tsx": {
+    "mtime": 1769922526.0827248,
+    "hash": "197384683ec10ab5e4d26852d0523228"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/src/main.tsx": {
+    "mtime": 1769722200.1959095,
+    "hash": "0a8bd64a76f5732897e685917302bd9c"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/src/vite-env.d.ts": {
+    "mtime": 1768932561.324685,
+    "hash": "0352474ba2918efe13895edbc3780d94"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/src/vite.config.ts": {
+    "mtime": 1770264931.369586,
+    "hash": "e3912baa8a2990ae804447e7b6813173"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Details/Details.tsx": {
+    "mtime": 1769878753.7296739,
+    "hash": "10ce9b0dbedfb4c1481a05ea6caffc43"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Details/detailStyles.ts": {
+    "mtime": 1771287173.4548295,
+    "hash": "6341331d6a40541c41182b128caa8c41"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx": {
+    "mtime": 1766710427.2891703,
+    "hash": "8db184b101d6211fd140c9bba8f6d3bc"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/mainStyles.ts": {
+    "mtime": 1749757262.6589053,
+    "hash": "719f57d41aae160eba8623631a347596"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Form/Form.tsx": {
+    "mtime": 1767293708.0299358,
+    "hash": "813b8c00687de1194804936b502df7d7"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Form/formStyles.ts": {
+    "mtime": 1770267608.445929,
+    "hash": "95bb2722485e8f55c14c676dc460eafd"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Constants/categories.ts": {
+    "mtime": 1778186738.0902512,
+    "hash": "ff9f3f750a902c886231bee0c82ce333"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/CLAUDE.md": {
+    "mtime": 1778207387.7595782,
+    "hash": "da79aa9343cd2b362206f03762160abc"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/index.html": {
+    "mtime": 1768932601.7453313,
+    "hash": "4eb59990979575d5038c0fa6479b0a70"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/pnpm-workspace.yaml": {
+    "mtime": 1770266481.3468978,
+    "hash": "68b329da9893e34099c7d8ad5cb9c940"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/ReadMe.md": {
+    "mtime": 1768932659.3725617,
+    "hash": "bcef41cfc69f0d5b297c0ec0fa6fc8d9"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/public/vite.svg": {
+    "mtime": 1677626162.0,
+    "hash": "8e3a10e157f75ada21ab742c022d5430"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/src/assets/appBG.jpg": {
+    "mtime": 1677627458.0,
+    "hash": "f1fce7ff9698e5e8ee18c6cfe33ad472"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/src/assets/expenseTracker.jpeg": {
+    "mtime": 1729304590.2053957,
+    "hash": "fdfcac77592f03fc4eecd1c40feaa7bc"
+  },
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/src/assets/react.svg": {
+    "mtime": 1677626162.0,
+    "hash": "f0402b67b6ce880f65666bb49e841696"
+  }
+}
