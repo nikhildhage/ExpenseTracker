@@ -29,9 +29,13 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Welcome to Expense Tracker, a modern voice activated personal finance management app built using the MERN stack with TypeScript and Material-UI for a sleek and efficient user experience.<br> This app
-empowers you to stay on top of your financial goals by tracking income, expenses, and budgets in a seamless, user-friendly way.<br> Designed to deliver performance, scalability, and flexibility,
-Finance Tracker integrates multiple technologies to offer a powerful solution:
+Welcome to Expense Tracker, a modern voice activated personal finance management
+app built using the MERN stack with TypeScript and Material-UI for a sleek and
+efficient user experience.<br> This app empowers you to stay on top of your
+financial goals by tracking income, expenses, and budgets in a seamless,
+user-friendly way.<br> Designed to deliver performance, scalability, and
+flexibility, Finance Tracker integrates multiple technologies to offer a
+powerful solution:
 
 - MongoDb for a robust, cloud-ready database.
 - Express.js and NestJS for building a secure and scalable backend API.
@@ -56,7 +60,8 @@ Finance Tracker integrates multiple technologies to offer a powerful solution:
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Authentication and Authorization**: Secure user access with registration, login, and route protection with clerk .
+👉 **Authentication and Authorization**: Secure user access with registration,
+login, and route protection with clerk .
 
 👉 **Category based Transactions**: Select transaction category
 
@@ -64,11 +69,13 @@ Finance Tracker integrates multiple technologies to offer a powerful solution:
 
 👉 **Amount**: Specify and input desired montary amount fro transaction
 
-👉 **Bank account connection**: Connect to your prefered bank account securely with plaid
+👉 **Bank account connection**: Connect to your prefered bank account securely
+with plaid
 
 👉 **Saas Payment**: Securely pay for pro version via Stripe
 
-👉 **Responsive UI/UX**: A seamless experience across devices with a user-friendly interface
+👉 **Responsive UI/UX**: A seamless experience across devices with a
+user-friendly interface
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -79,8 +86,7 @@ Follow these steps to set up the project locally on your machine.
 Make sure you have the following installed on your machine:
 
 - [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [Deno](https://deno.com/) 2.x (used as the package manager and task runner)
 
 ### **Cloning the Repository**
 
@@ -91,39 +97,51 @@ cd ExpenseTracker
 
 ### **Installation**
 
-Install the project dependencies using npm:
+Install the project dependencies using Deno (reads `package.json`, creates
+`node_modules/`):
 
 ```bash
-npm i
+deno install
 ```
 
 ### **Build**
 
-This project is built on node.js, esbuild and vite to bundle all dependencies. <br> Make sure your node version is compatible with project.<br> After installing all dependencies for the project<br>
-Vite will build the project to the dist folder as an out dir. You can change this in vite config file build project using npm:
+This project is built on Deno, esbuild and vite to bundle all dependencies. <br>
+Deno runs Vite via `npm:` specifiers — no separate Node.js install is
+needed.<br> After installing all dependencies for the project<br> Vite will
+build the project to the dist folder as an out dir. You can change this in vite
+config file build project using:
 
 ```bash
-npm run build
+deno task build
 ```
 
 ### **Vite Config**
 
 You can configure Vite setting by editing the vite-config.ts
 
-- [Vite](<https://vite.dev/config/-%20[Docker%20Desktop](https://www.docker.com/products/docker-desktop/)%20(Docker%20Desktop)>) (vite build tool )
+- [Vite](https://vite.dev/config/-%20[Docker%20Desktop](https://www.docker.com/products/docker-desktop/)%20(Docker%20Desktop))
+  (vite build tool )
 
-Warning make sure to turn off vite -open command for automatic opening in browser when building a docker container as the docker container does not have a gui
+Warning make sure to turn off vite -open command for automatic opening in
+browser when building a docker container as the docker container does not have a
+gui
 
 ### **Containerization**
 
-ExpenseTracker uses docker top container this build<br> If you would like to build a docker container make sure you have docker desktop or another service to build a docker container<br> To configure
-the docker image building process edit the dockerfile.<br> This docker container is using node as a build target and alpine os as a lightweight os
+ExpenseTracker uses docker top container this build<br> If you would like to
+build a docker container make sure you have docker desktop or another service to
+build a docker container<br> To configure the docker image building process edit
+the dockerfile.<br> This docker container uses the official `denoland/deno`
+image as the build and run target
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) (Docker Desktop)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) (Docker
+  Desktop)
 
 ### **Set Up Environment Variables**
 
-Create a new file named `.env.local` in the root of your project and add the following content:
+Create a new file named `.env.local` in the root of your project and add the
+following content:
 
 ```env
 #MONGODB
@@ -136,17 +154,21 @@ CLERK_URL="your_api_key"
 Stripe_URL="your_api_key"
 ```
 
-Replace the placeholder values with your actual respective account credentials. You can obtain these credentials by signing up on the [Clerk](https://clerk.com/), [MongoDB](https://www.mongodb.com/)
+Replace the placeholder values with your actual respective account credentials.
+You can obtain these credentials by signing up on the
+[Clerk](https://clerk.com/), [MongoDB](https://www.mongodb.com/)
 
 ### **Running the Project**
 
-If building for a docker container remember to map the container port to host port in docker desktop
+If building for a docker container remember to map the container port to host
+port in docker desktop
 
 ```bash
-npm run dev
+deno task dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the
+project.
 
 ## <a name="links">🔗 Links</a>
 
