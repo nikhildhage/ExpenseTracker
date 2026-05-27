@@ -1,53 +1,50 @@
-import { useState } from 'react';
+import { useState } from "react";
 import {
-  TextField,
-  Typography,
-  Grid2,
   Button,
   FormControl,
+  Grid2,
   InputLabel,
+  MenuItem,
   Select,
-  MenuItem
-} from '@mui/material';
+  TextField,
+  Typography,
+} from "@mui/material";
 
-import useStyles from './formStyles';
+import useStyles from "./formStyles";
 
 type FormProps = {
-  type :string,
-  category :string, 
-  amount:number,
-  date: string
+  type: string;
+  category: string;
+  amount: number;
+  date: string;
 };
-
- 
-
 
 const Form = () => {
   const classes = useStyles();
 
   // Default values for controlled selects
-  const [type, setType] = useState('Income');
+  const [type, setType] = useState("Income");
   const [category, setCategory] = useState("Business");
   const [amount, setAmount] = useState(50);
-  const [date, setDate] = useState('2025-12-10');
+  const [date, setDate] = useState("2025-12-10");
 
-  const formData:FormProps= {
+  const formData: FormProps = {
     type,
     category,
     amount,
     date,
   };
-  
+
   const handleSubmit = (e: React.FormEvent | React.MouseEvent) => {
     e.preventDefault(); // prevent page reload
     // Build the object from your form state
-    
-    console.log(formData)
+
+    console.log(formData);
   };
 
-  const getFormData=()=>{
+  const getFormData = () => {
     return formData;
-  }
+  };
 
   return (
     <Grid2 container spacing={2}>
@@ -88,11 +85,13 @@ const Form = () => {
       </Grid2>
 
       <Grid2 size={{ xs: 12, sm: 12, md: 6, lg: 6 }}>
-        <InputLabel variant="filled"> Amount</InputLabel>
+        <InputLabel variant="filled">Amount</InputLabel>
         <br />
         <FormControl fullWidth>
-          <TextField type="number"  
-          value={amount} onChange={(e) => setAmount(Number(e.target.value))}
+          <TextField
+            type="number"
+            value={amount}
+            onChange={(e) => setAmount(Number(e.target.value))}
           />
         </FormControl>
       </Grid2>
@@ -101,11 +100,15 @@ const Form = () => {
         <InputLabel variant="filled">Date</InputLabel>
         <br />
         <FormControl fullWidth>
-          <TextField type="date"value={date} onChange={(e) => setDate(e.target.value)}/>
+          <TextField
+            type="date"
+            value={date}
+            onChange={(e) => setDate(e.target.value)}
+          />
         </FormControl>
       </Grid2>
 
-      <Button 
+      <Button
         color="primary"
         className={classes.button}
         variant="contained"
