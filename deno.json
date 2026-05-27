@@ -1,0 +1,9 @@
+{
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "deno run -A npm:vite preview",
+    "depcheck": "deno run -A npm:depcheck"
+  }
+}
