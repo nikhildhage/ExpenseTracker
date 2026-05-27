@@ -1,1 +1,151 @@
-{"nodes": [{"id": "details_details", "label": "Details Component", "file_type": "code", "source_file": "src/Components/Details/Details.tsx", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "details_detailsprops", "label": "DetailsProps Type", "file_type": "code", "source_file": "src/Components/Details/Details.tsx", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "details_chartdata", "label": "Doughnut Chart Data Builder", "file_type": "code", "source_file": "src/Components/Details/Details.tsx", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "lazy_load_mui_rationale", "label": "Lazy Loading MUI + Chart for Bundle Size", "file_type": "rationale", "source_file": "src/Components/Details/Details.tsx", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [{"source": "details_details", "target": "detailstyles_usestyles", "relation": "calls", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "src/Components/Details/Details.tsx", "source_location": null, "weight": 1.0}, {"source": "details_details", "target": "categories_incomecolors", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "src/Components/Details/Details.tsx", "source_location": null, "weight": 1.0}, {"source": "details_details", "target": "categories_expensecolors", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "src/Components/Details/Details.tsx", "source_location": null, "weight": 1.0}, {"source": "details_details", "target": "categories_incomecategorylabels", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "src/Components/Details/Details.tsx", "source_location": null, "weight": 1.0}, {"source": "details_details", "target": "categories_expensecategorylabels", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "src/Components/Details/Details.tsx", "source_location": null, "weight": 1.0}, {"source": "details_details", "target": "details_chartdata", "relation": "calls", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "src/Components/Details/Details.tsx", "source_location": null, "weight": 1.0}, {"source": "details_details", "target": "details_detailsprops", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "src/Components/Details/Details.tsx", "source_location": null, "weight": 1.0}, {"source": "lazy_load_mui_rationale", "target": "details_details", "relation": "rationale_for", "confidence": "INFERRED", "confidence_score": 0.85, "source_file": "src/Components/Details/Details.tsx", "source_location": null, "weight": 1.0}, {"source": "details_chartdata", "target": "categories_incomecategorylabels", "relation": "shares_data_with", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "src/Components/Details/Details.tsx", "source_location": null, "weight": 1.0}, {"source": "details_chartdata", "target": "categories_expensecategorylabels", "relation": "shares_data_with", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "src/Components/Details/Details.tsx", "source_location": null, "weight": 1.0}], "hyperedges": []}
+{
+  "nodes": [
+    {
+      "id": "details_details",
+      "label": "Details Component",
+      "file_type": "code",
+      "source_file": "src/Components/Details/Details.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "details_detailsprops",
+      "label": "DetailsProps Type",
+      "file_type": "code",
+      "source_file": "src/Components/Details/Details.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "details_chartdata",
+      "label": "Doughnut Chart Data Builder",
+      "file_type": "code",
+      "source_file": "src/Components/Details/Details.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "lazy_load_mui_rationale",
+      "label": "Lazy Loading MUI + Chart for Bundle Size",
+      "file_type": "rationale",
+      "source_file": "src/Components/Details/Details.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "details_details",
+      "target": "detailstyles_usestyles",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/Components/Details/Details.tsx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "details_details",
+      "target": "categories_incomecolors",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/Components/Details/Details.tsx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "details_details",
+      "target": "categories_expensecolors",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/Components/Details/Details.tsx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "details_details",
+      "target": "categories_incomecategorylabels",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/Components/Details/Details.tsx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "details_details",
+      "target": "categories_expensecategorylabels",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/Components/Details/Details.tsx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "details_details",
+      "target": "details_chartdata",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/Components/Details/Details.tsx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "details_details",
+      "target": "details_detailsprops",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/Components/Details/Details.tsx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "lazy_load_mui_rationale",
+      "target": "details_details",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/Components/Details/Details.tsx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "details_chartdata",
+      "target": "categories_incomecategorylabels",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/Components/Details/Details.tsx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "details_chartdata",
+      "target": "categories_expensecategorylabels",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/Components/Details/Details.tsx",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

@@ -1,1 +1,116 @@
-{"nodes": [{"id": "expensetracker_screenshot", "label": "Expense Tracker UI Screenshot", "file_type": "image", "source_file": "src/assets/expenseTracker.jpeg", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "expensetracker_income_card", "label": "Income Doughnut Chart Card", "file_type": "image", "source_file": "src/assets/expenseTracker.jpeg", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "expensetracker_form_card", "label": "Form Card with Speechly Voice Input", "file_type": "image", "source_file": "src/assets/expenseTracker.jpeg", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "expensetracker_expense_card", "label": "Expense Doughnut Chart Card", "file_type": "image", "source_file": "src/assets/expenseTracker.jpeg", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "expensetracker_total_balance", "label": "Total Balance Display ($100)", "file_type": "image", "source_file": "src/assets/expenseTracker.jpeg", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "expensetracker_categories_legend", "label": "Categories Legend (Business, Investments, Deposits, Gifts, Lottery, Salary)", "file_type": "image", "source_file": "src/assets/expenseTracker.jpeg", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "expensetracker_form_fields", "label": "Form Fields (Type, Category, Amount, Date)", "file_type": "image", "source_file": "src/assets/expenseTracker.jpeg", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "expensetracker_create_button", "label": "Create Button (Blue CTA)", "file_type": "image", "source_file": "src/assets/expenseTracker.jpeg", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "expensetracker_voice_hint", "label": "Voice Command Hint (add income for $100)", "file_type": "image", "source_file": "src/assets/expenseTracker.jpeg", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "expensetracker_three_panel_layout", "label": "Three-Panel Dashboard Layout", "file_type": "image", "source_file": "src/assets/expenseTracker.jpeg", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [], "hyperedges": []}
+{
+  "nodes": [
+    {
+      "id": "expensetracker_screenshot",
+      "label": "Expense Tracker UI Screenshot",
+      "file_type": "image",
+      "source_file": "src/assets/expenseTracker.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "expensetracker_income_card",
+      "label": "Income Doughnut Chart Card",
+      "file_type": "image",
+      "source_file": "src/assets/expenseTracker.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "expensetracker_form_card",
+      "label": "Form Card with Speechly Voice Input",
+      "file_type": "image",
+      "source_file": "src/assets/expenseTracker.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "expensetracker_expense_card",
+      "label": "Expense Doughnut Chart Card",
+      "file_type": "image",
+      "source_file": "src/assets/expenseTracker.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "expensetracker_total_balance",
+      "label": "Total Balance Display ($100)",
+      "file_type": "image",
+      "source_file": "src/assets/expenseTracker.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "expensetracker_categories_legend",
+      "label": "Categories Legend (Business, Investments, Deposits, Gifts, Lottery, Salary)",
+      "file_type": "image",
+      "source_file": "src/assets/expenseTracker.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "expensetracker_form_fields",
+      "label": "Form Fields (Type, Category, Amount, Date)",
+      "file_type": "image",
+      "source_file": "src/assets/expenseTracker.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "expensetracker_create_button",
+      "label": "Create Button (Blue CTA)",
+      "file_type": "image",
+      "source_file": "src/assets/expenseTracker.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "expensetracker_voice_hint",
+      "label": "Voice Command Hint (add income for $100)",
+      "file_type": "image",
+      "source_file": "src/assets/expenseTracker.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "expensetracker_three_panel_layout",
+      "label": "Three-Panel Dashboard Layout",
+      "file_type": "image",
+      "source_file": "src/assets/expenseTracker.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [],
+  "hyperedges": []
+}

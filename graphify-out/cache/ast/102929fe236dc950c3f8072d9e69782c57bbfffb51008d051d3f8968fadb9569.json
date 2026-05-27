@@ -1,1 +1,94 @@
-{"nodes": [{"id": "mnt_c_dev_jsprojects_expensetracker_src_components_main_main_tsx", "label": "Main.tsx", "file_type": "code", "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx", "source_location": "L1"}, {"id": "main_main_mainprops", "label": "MainProps", "file_type": "code", "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx", "source_location": "L6"}, {"id": "main_main_main", "label": "Main()", "file_type": "code", "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx", "source_location": "L11"}], "edges": [{"source": "mnt_c_dev_jsprojects_expensetracker_src_components_main_main_tsx", "target": "react", "relation": "imports_from", "context": "import", "confidence": "EXTRACTED", "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx", "source_location": "L1", "weight": 1.0}, {"source": "mnt_c_dev_jsprojects_expensetracker_src_components_main_main_tsx", "target": "material", "relation": "imports_from", "context": "import", "confidence": "EXTRACTED", "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx", "source_location": "L2", "weight": 1.0}, {"source": "mnt_c_dev_jsprojects_expensetracker_src_components_main_main_tsx", "target": "mnt_c_dev_jsprojects_expensetracker_src_components_main_form_form_tsx", "relation": "imports_from", "context": "import", "confidence": "EXTRACTED", "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx", "source_location": "L3", "weight": 1.0}, {"source": "mnt_c_dev_jsprojects_expensetracker_src_components_main_main_tsx", "target": "mnt_c_dev_jsprojects_expensetracker_src_components_main_mainstyles_ts", "relation": "imports_from", "context": "import", "confidence": "EXTRACTED", "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx", "source_location": "L4", "weight": 1.0}, {"source": "mnt_c_dev_jsprojects_expensetracker_src_components_main_main_tsx", "target": "main_main_mainprops", "relation": "contains", "confidence": "EXTRACTED", "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx", "source_location": "L6", "weight": 1.0}, {"source": "mnt_c_dev_jsprojects_expensetracker_src_components_main_main_tsx", "target": "main_main_main", "relation": "contains", "confidence": "EXTRACTED", "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx", "source_location": "L11", "weight": 1.0}], "raw_calls": [{"caller_nid": "main_main_main", "callee": "useStyles", "is_member_call": false, "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx", "source_location": "L12"}]}
+{
+  "nodes": [
+    {
+      "id": "mnt_c_dev_jsprojects_expensetracker_src_components_main_main_tsx",
+      "label": "Main.tsx",
+      "file_type": "code",
+      "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "main_main_mainprops",
+      "label": "MainProps",
+      "file_type": "code",
+      "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "main_main_main",
+      "label": "Main()",
+      "file_type": "code",
+      "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx",
+      "source_location": "L11"
+    }
+  ],
+  "edges": [
+    {
+      "source": "mnt_c_dev_jsprojects_expensetracker_src_components_main_main_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "mnt_c_dev_jsprojects_expensetracker_src_components_main_main_tsx",
+      "target": "material",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "mnt_c_dev_jsprojects_expensetracker_src_components_main_main_tsx",
+      "target": "mnt_c_dev_jsprojects_expensetracker_src_components_main_form_form_tsx",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "mnt_c_dev_jsprojects_expensetracker_src_components_main_main_tsx",
+      "target": "mnt_c_dev_jsprojects_expensetracker_src_components_main_mainstyles_ts",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "mnt_c_dev_jsprojects_expensetracker_src_components_main_main_tsx",
+      "target": "main_main_mainprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "mnt_c_dev_jsprojects_expensetracker_src_components_main_main_tsx",
+      "target": "main_main_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx",
+      "source_location": "L11",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "main_main_main",
+      "callee": "useStyles",
+      "is_member_call": false,
+      "source_file": "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx",
+      "source_location": "L12"
+    }
+  ]
+}

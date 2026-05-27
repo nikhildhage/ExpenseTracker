@@ -1,4 +1,8 @@
 {
+  "/mnt/c/Dev/JSProjects/ExpenseTracker/vite.config.ts": {
+    "mtime": 1778976047.6134794,
+    "hash": "d461b1cce463e62fba5227183a429493"
+  },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/App.tsx": {
     "mtime": 1778215959.8302448,
     "hash": "36e1b70987472d885b5bbe140f14bd93"
@@ -18,10 +22,6 @@
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/vite-env.d.ts": {
     "mtime": 1768932561.324685,
     "hash": "0352474ba2918efe13895edbc3780d94"
-  },
-  "/mnt/c/Dev/JSProjects/ExpenseTracker/src/vite.config.ts": {
-    "mtime": 1770264931.369586,
-    "hash": "e3912baa8a2990ae804447e7b6813173"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Details/Details.tsx": {
     "mtime": 1769878753.7296739,
@@ -59,13 +59,9 @@
     "mtime": 1768932601.7453313,
     "hash": "4eb59990979575d5038c0fa6479b0a70"
   },
-  "/mnt/c/Dev/JSProjects/ExpenseTracker/pnpm-workspace.yaml": {
-    "mtime": 1770266481.3468978,
-    "hash": "68b329da9893e34099c7d8ad5cb9c940"
-  },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/ReadMe.md": {
-    "mtime": 1768932659.3725617,
-    "hash": "bcef41cfc69f0d5b297c0ec0fa6fc8d9"
+    "mtime": 1779052368.1711793,
+    "hash": "ef5798e13414e978871f36557ca50a92"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/public/vite.svg": {
     "mtime": 1677626162.0,
