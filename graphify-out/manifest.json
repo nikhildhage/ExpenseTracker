@@ -1,71 +1,71 @@
 {
   "/mnt/c/Dev/JSProjects/ExpenseTracker/vite.config.ts": {
-    "mtime": 1778976047.6134794,
-    "hash": "d461b1cce463e62fba5227183a429493"
+    "mtime": 1779078840.7130322,
+    "hash": "c693caef4580c3c0105efb1fd1ef2ba9"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/App.tsx": {
-    "mtime": 1778215959.8302448,
-    "hash": "36e1b70987472d885b5bbe140f14bd93"
+    "mtime": 1779078840.7150314,
+    "hash": "feacad40b11525e48a39f12dd6ff3705"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/appStyles.ts": {
-    "mtime": 1769722186.1331346,
-    "hash": "50752d4f634b8359c3e5855c9b8d2272"
+    "mtime": 1784939185.0748055,
+    "hash": "e8aee26016406207f9d4d9a9ad381db8"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/DashBoard.tsx": {
-    "mtime": 1769922526.0827248,
-    "hash": "197384683ec10ab5e4d26852d0523228"
+    "mtime": 1779078840.7238054,
+    "hash": "97c5134a6670d62f81c6228337182fec"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/main.tsx": {
-    "mtime": 1769722200.1959095,
-    "hash": "0a8bd64a76f5732897e685917302bd9c"
+    "mtime": 1779078840.7238054,
+    "hash": "f036fcd068f8e728a6911d2a05e3f051"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/vite-env.d.ts": {
     "mtime": 1768932561.324685,
     "hash": "0352474ba2918efe13895edbc3780d94"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Details/Details.tsx": {
-    "mtime": 1769878753.7296739,
-    "hash": "10ce9b0dbedfb4c1481a05ea6caffc43"
+    "mtime": 1784939256.5072005,
+    "hash": "ef1c0cf7df5a95b9e0cc9d3059d756fd"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Details/detailStyles.ts": {
-    "mtime": 1771287173.4548295,
-    "hash": "6341331d6a40541c41182b128caa8c41"
+    "mtime": 1784939192.0066783,
+    "hash": "0371eecc9018268831aaeb8eb20a8a7d"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx": {
-    "mtime": 1766710427.2891703,
-    "hash": "8db184b101d6211fd140c9bba8f6d3bc"
+    "mtime": 1784939250.7916553,
+    "hash": "dea0b48f690a38a113cc0fea1745d3fc"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/mainStyles.ts": {
-    "mtime": 1749757262.6589053,
-    "hash": "719f57d41aae160eba8623631a347596"
+    "mtime": 1784939197.2843294,
+    "hash": "7b599beeb25df8d89cca6bf56c833d13"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Form/Form.tsx": {
-    "mtime": 1767293708.0299358,
-    "hash": "813b8c00687de1194804936b502df7d7"
+    "mtime": 1784939260.9202151,
+    "hash": "bb3bdd05de952529608f71822f962723"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Form/formStyles.ts": {
-    "mtime": 1770267608.445929,
-    "hash": "95bb2722485e8f55c14c676dc460eafd"
+    "mtime": 1784939202.2270343,
+    "hash": "d52b9ffc2221fc76cb8fd5333268af96"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Constants/categories.ts": {
-    "mtime": 1778186738.0902512,
-    "hash": "ff9f3f750a902c886231bee0c82ce333"
+    "mtime": 1779078840.7238054,
+    "hash": "a71ed5ac6798cb669caae36376a0e856"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/CLAUDE.md": {
-    "mtime": 1778207387.7595782,
-    "hash": "da79aa9343cd2b362206f03762160abc"
+    "mtime": 1779078840.7150314,
+    "hash": "dce8fd33084425f4bb304f418ff8b409"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/index.html": {
     "mtime": 1768932601.7453313,
     "hash": "4eb59990979575d5038c0fa6479b0a70"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/ReadMe.md": {
-    "mtime": 1779052368.1711793,
-    "hash": "ef5798e13414e978871f36557ca50a92"
+    "mtime": 1779078840.7187295,
+    "hash": "9eef9f8f4d38690a670faed4a6f64a96"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/public/vite.svg": {
-    "mtime": 1677626162.0,
-    "hash": "8e3a10e157f75ada21ab742c022d5430"
+    "mtime": 1779078840.7170322,
+    "hash": "29c1862661f41b9f09c792a11fd9b236"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/assets/appBG.jpg": {
     "mtime": 1677627458.0,
@@ -76,7 +76,7 @@
     "hash": "fdfcac77592f03fc4eecd1c40feaa7bc"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/assets/react.svg": {
-    "mtime": 1677626162.0,
-    "hash": "f0402b67b6ce880f65666bb49e841696"
+    "mtime": 1779078840.7258344,
+    "hash": "b516933a0ab9a5a7bb497ca01d3a97a4"
   }
 }
