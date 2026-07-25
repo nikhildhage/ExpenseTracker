@@ -19,7 +19,7 @@ const Main = ({ title, subheader }: MainProps) => {
   const classes = useStyles();
   let totalBalance = "$100";
   return (
-    <Card className={classes.main} elevation={24}>
+    <Card sx={classes.main} elevation={24}>
       <CardHeader title={title} subheader={subheader} />
       <CardContent>
         <Typography align="center" variant="h5">
@@ -37,7 +37,7 @@ const Main = ({ title, subheader }: MainProps) => {
         <br />
         <Form />
       </CardContent>
-      <CardContent className={classes.cardContent}>
+      <CardContent sx={classes.cardContent}>
         <Grid2 container spacing={2}>
           <Grid2 size={{ xs: 12 }}>{/**List */}</Grid2>
         </Grid2>

@@ -110,7 +110,7 @@ const Form = () => {
 
       <Button
         color="primary"
-        className={classes.button}
+        sx={classes.button}
         variant="contained"
         onClick={handleSubmit}
         fullWidth
