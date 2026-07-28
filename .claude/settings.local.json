@@ -1,7 +1,5 @@
 {
   "permissions": {
-    "allow": [
-      "Bash(graphify --help)"
-    ]
+    "allow": ["Bash(graphify --help)"]
   }
 }

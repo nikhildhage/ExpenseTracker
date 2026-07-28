@@ -58,10 +58,7 @@ const Form = () => {
         <FormControl fullWidth>
           <InputLabel variant="filled">Type</InputLabel>
           <br />
-          <Select
-            value={type}
-            onChange={(e) => setType(e.target.value)}
-          >
+          <Select value={type} onChange={(e) => setType(e.target.value)}>
             <MenuItem value="Income">Income</MenuItem>
             <MenuItem value="Expense">Expense</MenuItem>
           </Select>

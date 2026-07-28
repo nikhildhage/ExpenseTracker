@@ -120,7 +120,7 @@ deno task build
 
 You can configure Vite setting by editing the vite-config.ts
 
-- [Vite](https://vite.dev/config/-%20[Docker%20Desktop](https://www.docker.com/products/docker-desktop/)%20(Docker%20Desktop))
+- [Vite](<https://vite.dev/config/-%20[Docker%20Desktop](https://www.docker.com/products/docker-desktop/)%20(Docker%20Desktop)>)
   (vite build tool )
 
 Warning make sure to turn off vite -open command for automatic opening in
