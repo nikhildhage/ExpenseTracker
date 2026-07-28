@@ -61,7 +61,7 @@
       "label": "manualChunks()",
       "file_type": "code",
       "source_file": "vite.config.ts",
-      "source_location": "L15",
+      "source_location": "L16",
       "id": "expensetracker_vite_config_manualchunks",
       "community": 7,
       "norm_label": "manualchunks()"
@@ -169,7 +169,7 @@
       "label": "Card",
       "file_type": "code",
       "source_file": "src/Components/Details/Details.tsx",
-      "source_location": "L7",
+      "source_location": "L12",
       "id": "details_details_card",
       "community": 0,
       "norm_label": "card"
@@ -178,7 +178,7 @@
       "label": "CardHeader",
       "file_type": "code",
       "source_file": "src/Components/Details/Details.tsx",
-      "source_location": "L12",
+      "source_location": "L17",
       "id": "details_details_cardheader",
       "community": 0,
       "norm_label": "cardheader"
@@ -187,7 +187,7 @@
       "label": "CardContent",
       "file_type": "code",
       "source_file": "src/Components/Details/Details.tsx",
-      "source_location": "L17",
+      "source_location": "L22",
       "id": "details_details_cardcontent",
       "community": 0,
       "norm_label": "cardcontent"
@@ -196,7 +196,7 @@
       "label": "Typography",
       "file_type": "code",
       "source_file": "src/Components/Details/Details.tsx",
-      "source_location": "L22",
+      "source_location": "L27",
       "id": "details_details_typography",
       "community": 0,
       "norm_label": "typography"
@@ -205,7 +205,7 @@
       "label": "Doughnut",
       "file_type": "code",
       "source_file": "src/Components/Details/Details.tsx",
-      "source_location": "L28",
+      "source_location": "L33",
       "id": "details_details_doughnut",
       "community": 0,
       "norm_label": "doughnut"
@@ -214,7 +214,7 @@
       "label": "DetailsProps",
       "file_type": "code",
       "source_file": "src/Components/Details/Details.tsx",
-      "source_location": "L35",
+      "source_location": "L40",
       "id": "details_details_detailsprops",
       "community": 0,
       "norm_label": "detailsprops"
@@ -223,7 +223,7 @@
       "label": "Details()",
       "file_type": "code",
       "source_file": "src/Components/Details/Details.tsx",
-      "source_location": "L40",
+      "source_location": "L45",
       "id": "details_details_details",
       "community": 0,
       "norm_label": "details()"
@@ -250,7 +250,7 @@
       "label": "MainProps",
       "file_type": "code",
       "source_file": "src/Components/Main/Main.tsx",
-      "source_location": "L6",
+      "source_location": "L13",
       "id": "main_main_mainprops",
       "community": 4,
       "norm_label": "mainprops"
@@ -259,7 +259,7 @@
       "label": "Main()",
       "file_type": "code",
       "source_file": "src/Components/Main/Main.tsx",
-      "source_location": "L11",
+      "source_location": "L18",
       "id": "main_main_main",
       "community": 4,
       "norm_label": "main()"
@@ -295,7 +295,7 @@
       "label": "Form()",
       "file_type": "code",
       "source_file": "src/Components/Main/Form/Form.tsx",
-      "source_location": "L25",
+      "source_location": "L22",
       "id": "form_form_form",
       "community": 4,
       "norm_label": "form()"
@@ -340,7 +340,7 @@
       "label": "incomeCategoryLabels",
       "file_type": "code",
       "source_file": "src/Constants/categories.ts",
-      "source_location": "L4",
+      "source_location": "L16",
       "id": "constants_categories_incomecategorylabels",
       "community": 0,
       "norm_label": "incomecategorylabels"
@@ -349,7 +349,7 @@
       "label": "expenseCategoryLabels",
       "file_type": "code",
       "source_file": "src/Constants/categories.ts",
-      "source_location": "L5",
+      "source_location": "L27",
       "id": "constants_categories_expensecategorylabels",
       "community": 0,
       "norm_label": "expensecategorylabels"
@@ -358,7 +358,7 @@
       "label": "incomeCategories",
       "file_type": "code",
       "source_file": "src/Constants/categories.ts",
-      "source_location": "L7",
+      "source_location": "L41",
       "id": "constants_categories_incomecategories",
       "community": 0,
       "norm_label": "incomecategories"
@@ -367,7 +367,7 @@
       "label": "expenseCategories",
       "file_type": "code",
       "source_file": "src/Constants/categories.ts",
-      "source_location": "L19",
+      "source_location": "L53",
       "id": "constants_categories_expensecategories",
       "community": 0,
       "norm_label": "expensecategories"
@@ -376,7 +376,7 @@
       "label": "resetCategories()",
       "file_type": "code",
       "source_file": "src/Constants/categories.ts",
-      "source_location": "L33",
+      "source_location": "L67",
       "id": "constants_categories_resetcategories",
       "community": 0,
       "norm_label": "resetcategories()"
@@ -430,7 +430,7 @@
       "label": "<a name=\"visit\">\ud83e\udd16 Visit</a>",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L42",
+      "source_location": "L46",
       "id": "expensetracker_readme_a_name_visit_visit_a",
       "community": 6,
       "norm_label": "<a name=\"visit\">\ud83e\udd16 visit</a>"
@@ -439,7 +439,7 @@
       "label": "<a name=\"tech-stack\">\u2699\ufe0f Tech Stack</a>",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L44",
+      "source_location": "L48",
       "id": "expensetracker_readme_a_name_tech_stack_tech_stack_a",
       "community": 6,
       "norm_label": "<a name=\"tech-stack\">\u2699\ufe0f tech stack</a>"
@@ -448,7 +448,7 @@
       "label": "<a name=\"features\">\ud83d\udd0b Features</a>",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L57",
+      "source_location": "L61",
       "id": "expensetracker_readme_a_name_features_features_a",
       "community": 6,
       "norm_label": "<a name=\"features\">\ud83d\udd0b features</a>"
@@ -457,7 +457,7 @@
       "label": "<a name=\"quick-start\">\ud83e\udd38 Quick Start</a>",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L73",
+      "source_location": "L80",
       "id": "expensetracker_readme_a_name_quick_start_quick_start_a",
       "community": 2,
       "norm_label": "<a name=\"quick-start\">\ud83e\udd38 quick start</a>"
@@ -466,7 +466,7 @@
       "label": "**Prerequisites**",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L77",
+      "source_location": "L84",
       "id": "expensetracker_readme_prerequisites",
       "community": 2,
       "norm_label": "**prerequisites**"
@@ -475,7 +475,7 @@
       "label": "**Cloning the Repository**",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L84",
+      "source_location": "L91",
       "id": "expensetracker_readme_cloning_the_repository",
       "community": 2,
       "norm_label": "**cloning the repository**"
@@ -484,7 +484,7 @@
       "label": "code:bash (git clone https://github.com/nikhildhage/ExpenseTracker.git)",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L86",
+      "source_location": "L93",
       "id": "expensetracker_readme_codeblock_1",
       "community": 2,
       "norm_label": "code:bash (git clone https://github.com/nikhildhage/expensetracker.git)"
@@ -493,7 +493,7 @@
       "label": "**Installation**",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L91",
+      "source_location": "L98",
       "id": "expensetracker_readme_installation",
       "community": 2,
       "norm_label": "**installation**"
@@ -502,7 +502,7 @@
       "label": "code:bash (deno install)",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L95",
+      "source_location": "L103",
       "id": "expensetracker_readme_codeblock_2",
       "community": 2,
       "norm_label": "code:bash (deno install)"
@@ -511,7 +511,7 @@
       "label": "**Build**",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L99",
+      "source_location": "L107",
       "id": "expensetracker_readme_build",
       "community": 2,
       "norm_label": "**build**"
@@ -520,7 +520,7 @@
       "label": "code:bash (deno task build)",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L104",
+      "source_location": "L115",
       "id": "expensetracker_readme_codeblock_3",
       "community": 2,
       "norm_label": "code:bash (deno task build)"
@@ -529,7 +529,7 @@
       "label": "**Vite Config**",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L108",
+      "source_location": "L119",
       "id": "expensetracker_readme_vite_config",
       "community": 2,
       "norm_label": "**vite config**"
@@ -538,7 +538,7 @@
       "label": "**Containerization**",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L116",
+      "source_location": "L130",
       "id": "expensetracker_readme_containerization",
       "community": 2,
       "norm_label": "**containerization**"
@@ -547,7 +547,7 @@
       "label": "**Set Up Environment Variables**",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L123",
+      "source_location": "L141",
       "id": "expensetracker_readme_set_up_environment_variables",
       "community": 2,
       "norm_label": "**set up environment variables**"
@@ -556,7 +556,7 @@
       "label": "code:env (#MONGODB)",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L127",
+      "source_location": "L146",
       "id": "expensetracker_readme_codeblock_4",
       "community": 2,
       "norm_label": "code:env (#mongodb)"
@@ -565,7 +565,7 @@
       "label": "**Running the Project**",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L140",
+      "source_location": "L161",
       "id": "expensetracker_readme_running_the_project",
       "community": 2,
       "norm_label": "**running the project**"
@@ -574,7 +574,7 @@
       "label": "code:bash (deno task dev)",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L144",
+      "source_location": "L166",
       "id": "expensetracker_readme_codeblock_5",
       "community": 2,
       "norm_label": "code:bash (deno task dev)"
@@ -583,7 +583,7 @@
       "label": "<a name=\"links\">\ud83d\udd17 Links</a>",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L150",
+      "source_location": "L173",
       "id": "expensetracker_readme_a_name_links_links_a",
       "community": 6,
       "norm_label": "<a name=\"links\">\ud83d\udd17 links</a>"
@@ -592,7 +592,7 @@
       "label": "code:block6 (./src/assets folder)",
       "file_type": "document",
       "source_file": "ReadMe.md",
-      "source_location": "L154",
+      "source_location": "L177",
       "id": "expensetracker_readme_codeblock_6",
       "community": 6,
       "norm_label": "code:block6 (./src/assets folder)"
@@ -1411,9 +1411,9 @@
       "source_file": "vite.config.ts",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "vite_config_ts",
-      "target": "expensetracker_vite_config_manualchunks",
-      "confidence_score": 1.0
+      "target": "expensetracker_vite_config_manualchunks"
     },
     {
       "relation": "contains",
@@ -1432,9 +1432,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_tsx",
-      "target": "src_dashboard_tsx",
-      "confidence_score": 1.0
+      "target": "src_dashboard_tsx"
     },
     {
       "relation": "imports_from",
@@ -1443,9 +1443,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_tsx",
-      "target": "src_appstyles_ts",
-      "confidence_score": 1.0
+      "target": "src_appstyles_ts"
     },
     {
       "relation": "contains",
@@ -1453,9 +1453,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_tsx",
-      "target": "src_app_app",
-      "confidence_score": 1.0
+      "target": "src_app_app"
     },
     {
       "relation": "imports_from",
@@ -1464,9 +1464,9 @@
       "source_file": "src/main.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_main_tsx",
-      "target": "src_app_tsx",
-      "confidence_score": 1.0
+      "target": "src_app_tsx"
     },
     {
       "relation": "contains",
@@ -1485,9 +1485,9 @@
       "source_file": "src/DashBoard.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_dashboard_tsx",
-      "target": "src_components_details_details_tsx",
-      "confidence_score": 1.0
+      "target": "src_components_details_details_tsx"
     },
     {
       "relation": "imports_from",
@@ -1496,9 +1496,9 @@
       "source_file": "src/DashBoard.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_dashboard_tsx",
-      "target": "src_components_main_main_tsx",
-      "confidence_score": 1.0
+      "target": "src_components_main_main_tsx"
     },
     {
       "relation": "contains",
@@ -1506,9 +1506,9 @@
       "source_file": "src/DashBoard.tsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_dashboard_tsx",
-      "target": "src_dashboard_dashboardprops",
-      "confidence_score": 1.0
+      "target": "src_dashboard_dashboardprops"
     },
     {
       "relation": "contains",
@@ -1516,9 +1516,9 @@
       "source_file": "src/DashBoard.tsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_dashboard_tsx",
-      "target": "src_dashboard_dashboard",
-      "confidence_score": 1.0
+      "target": "src_dashboard_dashboard"
     },
     {
       "relation": "contains",
@@ -1546,9 +1546,9 @@
       "source_file": "src/main.tsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_main_tsx",
-      "target": "src_main_root",
-      "confidence_score": 1.0
+      "target": "src_main_root"
     },
     {
       "relation": "contains",
@@ -1556,9 +1556,9 @@
       "source_file": "src/main.tsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_main_tsx",
-      "target": "src_main_theme",
-      "confidence_score": 1.0
+      "target": "src_main_theme"
     },
     {
       "relation": "contains",
@@ -1587,9 +1587,9 @@
       "source_file": "src/Components/Details/Details.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_details_details_tsx",
-      "target": "src_components_details_detailstyles_ts",
-      "confidence_score": 1.0
+      "target": "src_components_details_detailstyles_ts"
     },
     {
       "relation": "imports_from",
@@ -1598,9 +1598,9 @@
       "source_file": "src/Components/Details/Details.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_details_details_tsx",
-      "target": "src_constants_categories_ts",
-      "confidence_score": 1.0
+      "target": "src_constants_categories_ts"
     },
     {
       "relation": "imports",
@@ -1609,9 +1609,9 @@
       "source_file": "src/Components/Details/Details.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_details_details_tsx",
-      "target": "constants_categories_incomecolors",
-      "confidence_score": 1.0
+      "target": "constants_categories_expensecategorylabels"
     },
     {
       "relation": "imports",
@@ -1620,9 +1620,9 @@
       "source_file": "src/Components/Details/Details.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_details_details_tsx",
-      "target": "constants_categories_expensecolors",
-      "confidence_score": 1.0
+      "target": "constants_categories_expensecolors"
     },
     {
       "relation": "imports",
@@ -1631,9 +1631,9 @@
       "source_file": "src/Components/Details/Details.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_details_details_tsx",
-      "target": "constants_categories_incomecategorylabels",
-      "confidence_score": 1.0
+      "target": "constants_categories_incomecategorylabels"
     },
     {
       "relation": "imports",
@@ -1642,9 +1642,9 @@
       "source_file": "src/Components/Details/Details.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_details_details_tsx",
-      "target": "constants_categories_expensecategorylabels",
-      "confidence_score": 1.0
+      "target": "constants_categories_incomecolors"
     },
     {
       "relation": "contains",
@@ -1652,9 +1652,9 @@
       "source_file": "src/Components/Details/Details.tsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_details_details_tsx",
-      "target": "details_details_card",
-      "confidence_score": 1.0
+      "target": "details_details_card"
     },
     {
       "relation": "contains",
@@ -1662,9 +1662,9 @@
       "source_file": "src/Components/Details/Details.tsx",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_details_details_tsx",
-      "target": "details_details_cardheader",
-      "confidence_score": 1.0
+      "target": "details_details_cardheader"
     },
     {
       "relation": "contains",
@@ -1672,9 +1672,9 @@
       "source_file": "src/Components/Details/Details.tsx",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_details_details_tsx",
-      "target": "details_details_cardcontent",
-      "confidence_score": 1.0
+      "target": "details_details_cardcontent"
     },
     {
       "relation": "contains",
@@ -1682,9 +1682,9 @@
       "source_file": "src/Components/Details/Details.tsx",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_details_details_tsx",
-      "target": "details_details_typography",
-      "confidence_score": 1.0
+      "target": "details_details_typography"
     },
     {
       "relation": "contains",
@@ -1692,9 +1692,9 @@
       "source_file": "src/Components/Details/Details.tsx",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_details_details_tsx",
-      "target": "details_details_doughnut",
-      "confidence_score": 1.0
+      "target": "details_details_doughnut"
     },
     {
       "relation": "contains",
@@ -1702,9 +1702,9 @@
       "source_file": "src/Components/Details/Details.tsx",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_details_details_tsx",
-      "target": "details_details_detailsprops",
-      "confidence_score": 1.0
+      "target": "details_details_detailsprops"
     },
     {
       "relation": "contains",
@@ -1712,9 +1712,9 @@
       "source_file": "src/Components/Details/Details.tsx",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_details_details_tsx",
-      "target": "details_details_details",
-      "confidence_score": 1.0
+      "target": "details_details_details"
     },
     {
       "relation": "contains",
@@ -1793,9 +1793,9 @@
       "source_file": "src/Components/Main/Main.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_main_main_tsx",
-      "target": "src_components_main_form_form_tsx",
-      "confidence_score": 1.0
+      "target": "src_components_main_form_form_tsx"
     },
     {
       "relation": "imports_from",
@@ -1804,9 +1804,9 @@
       "source_file": "src/Components/Main/Main.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_main_main_tsx",
-      "target": "src_components_main_mainstyles_ts",
-      "confidence_score": 1.0
+      "target": "src_components_main_mainstyles_ts"
     },
     {
       "relation": "contains",
@@ -1814,9 +1814,9 @@
       "source_file": "src/Components/Main/Main.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_main_main_tsx",
-      "target": "main_main_mainprops",
-      "confidence_score": 1.0
+      "target": "main_main_mainprops"
     },
     {
       "relation": "contains",
@@ -1824,9 +1824,9 @@
       "source_file": "src/Components/Main/Main.tsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_main_main_tsx",
-      "target": "main_main_main",
-      "confidence_score": 1.0
+      "target": "main_main_main"
     },
     {
       "relation": "contains",
@@ -1855,9 +1855,9 @@
       "source_file": "src/Components/Main/Form/Form.tsx",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_main_form_form_tsx",
-      "target": "src_components_main_form_formstyles_ts",
-      "confidence_score": 1.0
+      "target": "src_components_main_form_formstyles_ts"
     },
     {
       "relation": "contains",
@@ -1865,9 +1865,9 @@
       "source_file": "src/Components/Main/Form/Form.tsx",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_main_form_form_tsx",
-      "target": "form_form_formprops",
-      "confidence_score": 1.0
+      "target": "form_form_formprops"
     },
     {
       "relation": "contains",
@@ -1875,9 +1875,9 @@
       "source_file": "src/Components/Main/Form/Form.tsx",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_main_form_form_tsx",
-      "target": "form_form_form",
-      "confidence_score": 1.0
+      "target": "form_form_form"
     },
     {
       "relation": "contains",
@@ -1905,9 +1905,9 @@
       "source_file": "src/Constants/categories.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_constants_categories_ts",
-      "target": "constants_categories_incomecolors",
-      "confidence_score": 1.0
+      "target": "constants_categories_incomecolors"
     },
     {
       "relation": "contains",
@@ -1915,9 +1915,9 @@
       "source_file": "src/Constants/categories.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_constants_categories_ts",
-      "target": "constants_categories_expensecolors",
-      "confidence_score": 1.0
+      "target": "constants_categories_expensecolors"
     },
     {
       "relation": "contains",
@@ -1925,9 +1925,9 @@
       "source_file": "src/Constants/categories.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_constants_categories_ts",
-      "target": "constants_categories_incomecategorylabels",
-      "confidence_score": 1.0
+      "target": "constants_categories_incomecategorylabels"
     },
     {
       "relation": "contains",
@@ -1935,9 +1935,9 @@
       "source_file": "src/Constants/categories.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_constants_categories_ts",
-      "target": "constants_categories_expensecategorylabels",
-      "confidence_score": 1.0
+      "target": "constants_categories_expensecategorylabels"
     },
     {
       "relation": "contains",
@@ -1945,9 +1945,9 @@
       "source_file": "src/Constants/categories.ts",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_constants_categories_ts",
-      "target": "constants_categories_incomecategories",
-      "confidence_score": 1.0
+      "target": "constants_categories_incomecategories"
     },
     {
       "relation": "contains",
@@ -1955,9 +1955,9 @@
       "source_file": "src/Constants/categories.ts",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_constants_categories_ts",
-      "target": "constants_categories_expensecategories",
-      "confidence_score": 1.0
+      "target": "constants_categories_expensecategories"
     },
     {
       "relation": "contains",
@@ -1965,9 +1965,9 @@
       "source_file": "src/Constants/categories.ts",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_constants_categories_ts",
-      "target": "constants_categories_resetcategories",
-      "confidence_score": 1.0
+      "target": "constants_categories_resetcategories"
     },
     {
       "relation": "imports",
@@ -2089,9 +2089,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_md",
-      "target": "expensetracker_claude_graphify",
-      "confidence_score": 1.0
+      "target": "expensetracker_claude_graphify"
     },
     {
       "relation": "contains",
@@ -2099,9 +2099,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "expensetracker_readme_a_name_table_table_of_contents_a",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_a_name_table_table_of_contents_a"
     },
     {
       "relation": "contains",
@@ -2109,9 +2109,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "expensetracker_readme_a_name_introduction_introduction_a",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_a_name_introduction_introduction_a"
     },
     {
       "relation": "contains",
@@ -2119,9 +2119,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "expensetracker_readme_a_name_visit_visit_a",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_a_name_visit_visit_a"
     },
     {
       "relation": "contains",
@@ -2129,9 +2129,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "expensetracker_readme_a_name_tech_stack_tech_stack_a",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_a_name_tech_stack_tech_stack_a"
     },
     {
       "relation": "contains",
@@ -2139,9 +2139,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "expensetracker_readme_a_name_features_features_a",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_a_name_features_features_a"
     },
     {
       "relation": "contains",
@@ -2149,9 +2149,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "expensetracker_readme_a_name_quick_start_quick_start_a",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_a_name_quick_start_quick_start_a"
     },
     {
       "relation": "contains",
@@ -2159,9 +2159,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L150",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "expensetracker_readme_a_name_links_links_a",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_a_name_links_links_a"
     },
     {
       "relation": "contains",
@@ -2169,9 +2169,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expensetracker_readme_a_name_quick_start_quick_start_a",
-      "target": "expensetracker_readme_prerequisites",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_prerequisites"
     },
     {
       "relation": "contains",
@@ -2179,9 +2179,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expensetracker_readme_a_name_quick_start_quick_start_a",
-      "target": "expensetracker_readme_cloning_the_repository",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_cloning_the_repository"
     },
     {
       "relation": "contains",
@@ -2189,9 +2189,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expensetracker_readme_a_name_quick_start_quick_start_a",
-      "target": "expensetracker_readme_installation",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_installation"
     },
     {
       "relation": "contains",
@@ -2199,9 +2199,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expensetracker_readme_a_name_quick_start_quick_start_a",
-      "target": "expensetracker_readme_build",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_build"
     },
     {
       "relation": "contains",
@@ -2209,9 +2209,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expensetracker_readme_a_name_quick_start_quick_start_a",
-      "target": "expensetracker_readme_vite_config",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_vite_config"
     },
     {
       "relation": "contains",
@@ -2219,9 +2219,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L116",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expensetracker_readme_a_name_quick_start_quick_start_a",
-      "target": "expensetracker_readme_containerization",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_containerization"
     },
     {
       "relation": "contains",
@@ -2229,9 +2229,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L123",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expensetracker_readme_a_name_quick_start_quick_start_a",
-      "target": "expensetracker_readme_set_up_environment_variables",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_set_up_environment_variables"
     },
     {
       "relation": "contains",
@@ -2239,9 +2239,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L140",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expensetracker_readme_a_name_quick_start_quick_start_a",
-      "target": "expensetracker_readme_running_the_project",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_running_the_project"
     },
     {
       "relation": "contains",
@@ -2249,9 +2249,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expensetracker_readme_cloning_the_repository",
-      "target": "expensetracker_readme_codeblock_1",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_codeblock_1"
     },
     {
       "relation": "contains",
@@ -2259,9 +2259,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L95",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expensetracker_readme_installation",
-      "target": "expensetracker_readme_codeblock_2",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_codeblock_2"
     },
     {
       "relation": "contains",
@@ -2269,9 +2269,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L104",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expensetracker_readme_build",
-      "target": "expensetracker_readme_codeblock_3",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_codeblock_3"
     },
     {
       "relation": "contains",
@@ -2279,9 +2279,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L127",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expensetracker_readme_set_up_environment_variables",
-      "target": "expensetracker_readme_codeblock_4",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_codeblock_4"
     },
     {
       "relation": "contains",
@@ -2289,9 +2289,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L144",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expensetracker_readme_running_the_project",
-      "target": "expensetracker_readme_codeblock_5",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_codeblock_5"
     },
     {
       "relation": "contains",
@@ -2299,9 +2299,9 @@
       "source_file": "ReadMe.md",
       "source_location": "L154",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "expensetracker_readme_a_name_links_links_a",
-      "target": "expensetracker_readme_codeblock_6",
-      "confidence_score": 1.0
+      "target": "expensetracker_readme_codeblock_6"
     },
     {
       "relation": "imports_from",
@@ -2888,5 +2888,5 @@
       "source_file": "src/Constants/categories.ts"
     }
   ],
-  "built_at_commit": "9688f3d376e29686b11ecb734871758b51d8711b"
+  "built_at_commit": "2895cc300edb8f7a43a2df32e8fce223d1cb9b56"
 }
