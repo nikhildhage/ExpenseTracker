@@ -1,4 +1,4 @@
-# Graph Report - ExpenseTracker  (2026-07-28)
+# Graph Report - ExpenseTracker  (2026-07-31)
 
 ## Corpus Check
 - 15 files · ~14,715 words
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8e7425b0`
+- Built from commit: `ad66ff6a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
