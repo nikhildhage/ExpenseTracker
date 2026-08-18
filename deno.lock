@@ -9,6 +9,7 @@
     "npm:@mui/system@^6.1.3": "6.5.0_@emotion+react@11.14.0__react@18.3.1_@emotion+styled@11.14.1__@emotion+react@11.14.0___react@18.3.1__react@18.3.1_@types+react@18.3.28_react@18.3.1",
     "npm:@types/react-dom@^18.3.0": "18.3.7_@types+react@18.3.28",
     "npm:@types/react@^18.3.8": "18.3.28",
+    "npm:@vitejs/plugin-react@*": "4.7.0_vite@5.4.21__terser@5.47.1_terser@5.47.1",
     "npm:@vitejs/plugin-react@^4.3.1": "4.7.0_vite@5.4.21__terser@5.47.1_terser@5.47.1",
     "npm:chart.js@^4.4.4": "4.5.1",
     "npm:depcheck@^1.4.7": "1.4.7",
