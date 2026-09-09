@@ -7,8 +7,5 @@
     "depcheck": "deno run -A npm:depcheck",
     "fmt": "deno run -A npm:prettier@3.9.6 --write .",
     "fmt:check": "deno run -A npm:prettier@3.9.6 --check ."
-  },
-  "fmt": {
-    "exclude": ["."]
   }
 }

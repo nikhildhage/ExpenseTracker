@@ -54,17 +54,8 @@
       "source_file": "vite.config.ts",
       "source_location": "L1",
       "id": "vite_config_ts",
-      "community": 9,
+      "community": 12,
       "norm_label": "vite.config.ts"
-    },
-    {
-      "label": "manualChunks()",
-      "file_type": "code",
-      "source_file": "vite.config.ts",
-      "source_location": "L16",
-      "id": "expensetracker_vite_config_manualchunks",
-      "community": 9,
-      "norm_label": "manualchunks()"
     },
     {
       "label": "App.tsx",
@@ -153,7 +144,7 @@
       "source_file": "src/vite-env.d.ts",
       "source_location": "L1",
       "id": "src_vite_env_d_ts",
-      "community": 13,
+      "community": 16,
       "norm_label": "vite-env.d.ts"
     },
     {
@@ -387,7 +378,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "id": "claude_md",
-      "community": 11,
+      "community": 14,
       "norm_label": "claude.md"
     },
     {
@@ -396,7 +387,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "id": "expensetracker_claude_graphify",
-      "community": 11,
+      "community": 14,
       "norm_label": "graphify"
     },
     {
@@ -670,6 +661,123 @@
       "norm_label": "source nodes"
     },
     {
+      "label": "query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker.md",
+      "file_type": "document",
+      "source_file": "graphify-out/memory/query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker.md",
+      "source_location": "L1",
+      "id": "graphify_out_memory_query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker_md",
+      "community": 9,
+      "norm_label": "query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker.md"
+    },
+    {
+      "label": "Q: Is the git push 403 to nikhildhage/ExpenseTracker still blocking, and what is the branch sync state?",
+      "file_type": "document",
+      "source_file": "graphify-out/memory/query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker.md",
+      "source_location": "L9",
+      "id": "memory_query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker_q_is_the_git_push_403_to_nikhildhage_expensetracker_still_blocking_and_what_is_the_branch_sync_state",
+      "community": 9,
+      "norm_label": "q: is the git push 403 to nikhildhage/expensetracker still blocking, and what is the branch sync state?"
+    },
+    {
+      "label": "Answer",
+      "file_type": "document",
+      "source_file": "graphify-out/memory/query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker.md",
+      "source_location": "L11",
+      "id": "memory_query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker_answer",
+      "community": 9,
+      "norm_label": "answer"
+    },
+    {
+      "label": "Source Nodes",
+      "file_type": "document",
+      "source_file": "graphify-out/memory/query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker.md",
+      "source_location": "L15",
+      "id": "memory_query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker_source_nodes",
+      "community": 9,
+      "norm_label": "source nodes"
+    },
+    {
+      "label": "query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh.md",
+      "file_type": "document",
+      "source_file": "graphify-out/memory/query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh.md",
+      "source_location": "L1",
+      "id": "graphify_out_memory_query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh_md",
+      "community": 10,
+      "norm_label": "query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh.md"
+    },
+    {
+      "label": "Q: What unpushed work exists in ExpenseTracker and what is the PR and branch state?",
+      "file_type": "document",
+      "source_file": "graphify-out/memory/query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh.md",
+      "source_location": "L9",
+      "id": "memory_query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh_q_what_unpushed_work_exists_in_expensetracker_and_what_is_the_pr_and_branch_state",
+      "community": 10,
+      "norm_label": "q: what unpushed work exists in expensetracker and what is the pr and branch state?"
+    },
+    {
+      "label": "Answer",
+      "file_type": "document",
+      "source_file": "graphify-out/memory/query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh.md",
+      "source_location": "L11",
+      "id": "memory_query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh_answer",
+      "community": 10,
+      "norm_label": "answer"
+    },
+    {
+      "label": "Source Nodes",
+      "file_type": "document",
+      "source_file": "graphify-out/memory/query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh.md",
+      "source_location": "L15",
+      "id": "memory_query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh_source_nodes",
+      "community": 10,
+      "norm_label": "source nodes"
+    },
+    {
+      "label": "query_20260909_175204_why_does_this_repo_have__gitattributes_and_why_are.md",
+      "file_type": "document",
+      "source_file": "graphify-out/memory/query_20260909_175204_why_does_this_repo_have__gitattributes_and_why_are.md",
+      "source_location": "L1",
+      "id": "graphify_out_memory_query_20260909_175204_why_does_this_repo_have_gitattributes_and_why_are_md",
+      "community": 11,
+      "norm_label": "query_20260909_175204_why_does_this_repo_have__gitattributes_and_why_are.md"
+    },
+    {
+      "label": "Q: Why does this repo have .gitattributes and why are graphify cache and graph.html untracked?",
+      "file_type": "document",
+      "source_file": "graphify-out/memory/query_20260909_175204_why_does_this_repo_have__gitattributes_and_why_are.md",
+      "source_location": "L9",
+      "id": "memory_query_20260909_175204_why_does_this_repo_have_gitattributes_and_why_are_q_why_does_this_repo_have_gitattributes_and_why_are_graphify_cache_and_graph_html_untracked",
+      "community": 11,
+      "norm_label": "q: why does this repo have .gitattributes and why are graphify cache and graph.html untracked?"
+    },
+    {
+      "label": "Answer",
+      "file_type": "document",
+      "source_file": "graphify-out/memory/query_20260909_175204_why_does_this_repo_have__gitattributes_and_why_are.md",
+      "source_location": "L11",
+      "id": "memory_query_20260909_175204_why_does_this_repo_have_gitattributes_and_why_are_answer",
+      "community": 11,
+      "norm_label": "answer"
+    },
+    {
+      "label": "Source Nodes",
+      "file_type": "document",
+      "source_file": "graphify-out/memory/query_20260909_175204_why_does_this_repo_have__gitattributes_and_why_are.md",
+      "source_location": "L15",
+      "id": "memory_query_20260909_175204_why_does_this_repo_have_gitattributes_and_why_are_source_nodes",
+      "community": 11,
+      "norm_label": "source nodes"
+    },
+    {
+      "label": "manualChunks()",
+      "file_type": "code",
+      "source_file": "vite.config.ts",
+      "source_location": "L16",
+      "community": 12,
+      "norm_label": "manualchunks()",
+      "id": "expensetracker_vite_config_manualchunks"
+    },
+    {
       "label": "App.tsx",
       "file_type": "code",
       "source_file": "App.tsx",
@@ -710,7 +818,7 @@
       "file_type": "code",
       "source_file": "vite-env.d.ts",
       "source_location": "L1",
-      "community": 14,
+      "community": 17,
       "norm_label": "vite-env.d.ts",
       "id": "vite_env_d_ts"
     },
@@ -719,7 +827,7 @@
       "file_type": "code",
       "source_file": "vite.config.ts",
       "source_location": "L15",
-      "community": 9,
+      "community": 12,
       "norm_label": "manualchunks()",
       "id": "src_vite_config_manualchunks"
     },
@@ -873,7 +981,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 13,
       "norm_label": "vite build config (manualchunks)",
       "id": "viteconfig_default"
     },
@@ -886,7 +994,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 13,
       "norm_label": "manualchunks vendor splitter",
       "id": "viteconfig_manualchunks"
     },
@@ -899,7 +1007,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 13,
       "norm_label": "vendor chunk splitting for caching",
       "id": "vendor_splitting_rationale"
     },
@@ -1237,7 +1345,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 18,
       "norm_label": "vite logo",
       "id": "vite_logo"
     },
@@ -1250,7 +1358,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 16,
+      "community": 19,
       "norm_label": "app background image",
       "id": "appbg_background"
     },
@@ -1263,7 +1371,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 17,
+      "community": 20,
       "norm_label": "abstract geometric design",
       "id": "appbg_geometric_design"
     },
@@ -1276,7 +1384,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 21,
       "norm_label": "pink/orange/yellow color palette",
       "id": "appbg_color_palette"
     },
@@ -1289,7 +1397,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 22,
       "norm_label": "overlapping diamond/square shapes",
       "id": "appbg_diamond_shapes"
     },
@@ -1302,7 +1410,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 23,
       "norm_label": "empty white center space",
       "id": "appbg_white_center"
     },
@@ -1315,7 +1423,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 21,
+      "community": 24,
       "norm_label": "expense tracker ui screenshot",
       "id": "expensetracker_screenshot"
     },
@@ -1328,7 +1436,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 22,
+      "community": 25,
       "norm_label": "income doughnut chart card",
       "id": "expensetracker_income_card"
     },
@@ -1341,7 +1449,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 23,
+      "community": 26,
       "norm_label": "form card with speechly voice input",
       "id": "expensetracker_form_card"
     },
@@ -1354,7 +1462,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 24,
+      "community": 27,
       "norm_label": "expense doughnut chart card",
       "id": "expensetracker_expense_card"
     },
@@ -1367,7 +1475,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 25,
+      "community": 28,
       "norm_label": "total balance display ($100)",
       "id": "expensetracker_total_balance"
     },
@@ -1380,7 +1488,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 29,
       "norm_label": "categories legend (business, investments, deposits, gifts, lottery, salary)",
       "id": "expensetracker_categories_legend"
     },
@@ -1393,7 +1501,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 30,
       "norm_label": "form fields (type, category, amount, date)",
       "id": "expensetracker_form_fields"
     },
@@ -1406,7 +1514,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 31,
       "norm_label": "create button (blue cta)",
       "id": "expensetracker_create_button"
     },
@@ -1419,7 +1527,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 32,
       "norm_label": "voice command hint (add income for $100)",
       "id": "expensetracker_voice_hint"
     },
@@ -1432,7 +1540,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 33,
       "norm_label": "three-panel dashboard layout",
       "id": "expensetracker_three_panel_layout"
     },
@@ -1445,7 +1553,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 31,
+      "community": 34,
       "norm_label": "react logo",
       "id": "react_logo"
     },
@@ -1458,7 +1566,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 15,
       "norm_label": "vite client type reference",
       "id": "vite_env_d_ts_typereference"
     },
@@ -1471,7 +1579,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 15,
       "norm_label": "pnpm workspace configuration",
       "id": "pnpm_workspace_config"
     }
@@ -2381,9 +2489,9 @@
       "source_file": "graphify-out/memory/query_20260731_165041_why_does_git_push_to_nikhildhage_expensetracker_fa.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_out_memory_query_20260731_165041_why_does_git_push_to_nikhildhage_expensetracker_fa_md",
-      "target": "memory_query_20260731_165041_why_does_git_push_to_nikhildhage_expensetracker_fa_q_why_does_git_push_to_nikhildhage_expensetracker_fail_with_403_and_is_it_fixed",
-      "confidence_score": 1.0
+      "target": "memory_query_20260731_165041_why_does_git_push_to_nikhildhage_expensetracker_fa_q_why_does_git_push_to_nikhildhage_expensetracker_fail_with_403_and_is_it_fixed"
     },
     {
       "relation": "contains",
@@ -2391,9 +2499,9 @@
       "source_file": "graphify-out/memory/query_20260731_165041_why_does_git_push_to_nikhildhage_expensetracker_fa.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "memory_query_20260731_165041_why_does_git_push_to_nikhildhage_expensetracker_fa_q_why_does_git_push_to_nikhildhage_expensetracker_fail_with_403_and_is_it_fixed",
-      "target": "memory_query_20260731_165041_why_does_git_push_to_nikhildhage_expensetracker_fa_answer",
-      "confidence_score": 1.0
+      "target": "memory_query_20260731_165041_why_does_git_push_to_nikhildhage_expensetracker_fa_answer"
     },
     {
       "relation": "contains",
@@ -2401,9 +2509,9 @@
       "source_file": "graphify-out/memory/query_20260731_165041_why_does_git_push_to_nikhildhage_expensetracker_fa.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "memory_query_20260731_165041_why_does_git_push_to_nikhildhage_expensetracker_fa_q_why_does_git_push_to_nikhildhage_expensetracker_fail_with_403_and_is_it_fixed",
-      "target": "memory_query_20260731_165041_why_does_git_push_to_nikhildhage_expensetracker_fa_source_nodes",
-      "confidence_score": 1.0
+      "target": "memory_query_20260731_165041_why_does_git_push_to_nikhildhage_expensetracker_fa_source_nodes"
     },
     {
       "relation": "contains",
@@ -2411,9 +2519,9 @@
       "source_file": "graphify-out/memory/query_20260731_165052_what_unpushed_work_exists_in_expensetracker_and_wh.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_out_memory_query_20260731_165052_what_unpushed_work_exists_in_expensetracker_and_wh_md",
-      "target": "memory_query_20260731_165052_what_unpushed_work_exists_in_expensetracker_and_wh_q_what_unpushed_work_exists_in_expensetracker_and_what_is_the_pr_state",
-      "confidence_score": 1.0
+      "target": "memory_query_20260731_165052_what_unpushed_work_exists_in_expensetracker_and_wh_q_what_unpushed_work_exists_in_expensetracker_and_what_is_the_pr_state"
     },
     {
       "relation": "contains",
@@ -2421,9 +2529,9 @@
       "source_file": "graphify-out/memory/query_20260731_165052_what_unpushed_work_exists_in_expensetracker_and_wh.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "memory_query_20260731_165052_what_unpushed_work_exists_in_expensetracker_and_wh_q_what_unpushed_work_exists_in_expensetracker_and_what_is_the_pr_state",
-      "target": "memory_query_20260731_165052_what_unpushed_work_exists_in_expensetracker_and_wh_answer",
-      "confidence_score": 1.0
+      "target": "memory_query_20260731_165052_what_unpushed_work_exists_in_expensetracker_and_wh_answer"
     },
     {
       "relation": "contains",
@@ -2431,8 +2539,98 @@
       "source_file": "graphify-out/memory/query_20260731_165052_what_unpushed_work_exists_in_expensetracker_and_wh.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "memory_query_20260731_165052_what_unpushed_work_exists_in_expensetracker_and_wh_q_what_unpushed_work_exists_in_expensetracker_and_what_is_the_pr_state",
-      "target": "memory_query_20260731_165052_what_unpushed_work_exists_in_expensetracker_and_wh_source_nodes",
+      "target": "memory_query_20260731_165052_what_unpushed_work_exists_in_expensetracker_and_wh_source_nodes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/memory/query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "graphify_out_memory_query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker_md",
+      "target": "memory_query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker_q_is_the_git_push_403_to_nikhildhage_expensetracker_still_blocking_and_what_is_the_branch_sync_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/memory/query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "memory_query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker_q_is_the_git_push_403_to_nikhildhage_expensetracker_still_blocking_and_what_is_the_branch_sync_state",
+      "target": "memory_query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker_answer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/memory/query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "memory_query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker_q_is_the_git_push_403_to_nikhildhage_expensetracker_still_blocking_and_what_is_the_branch_sync_state",
+      "target": "memory_query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker_source_nodes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/memory/query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "graphify_out_memory_query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh_md",
+      "target": "memory_query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh_q_what_unpushed_work_exists_in_expensetracker_and_what_is_the_pr_and_branch_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/memory/query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "memory_query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh_q_what_unpushed_work_exists_in_expensetracker_and_what_is_the_pr_and_branch_state",
+      "target": "memory_query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh_answer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/memory/query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "memory_query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh_q_what_unpushed_work_exists_in_expensetracker_and_what_is_the_pr_and_branch_state",
+      "target": "memory_query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh_source_nodes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/memory/query_20260909_175204_why_does_this_repo_have__gitattributes_and_why_are.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "graphify_out_memory_query_20260909_175204_why_does_this_repo_have_gitattributes_and_why_are_md",
+      "target": "memory_query_20260909_175204_why_does_this_repo_have_gitattributes_and_why_are_q_why_does_this_repo_have_gitattributes_and_why_are_graphify_cache_and_graph_html_untracked",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/memory/query_20260909_175204_why_does_this_repo_have__gitattributes_and_why_are.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "memory_query_20260909_175204_why_does_this_repo_have_gitattributes_and_why_are_q_why_does_this_repo_have_gitattributes_and_why_are_graphify_cache_and_graph_html_untracked",
+      "target": "memory_query_20260909_175204_why_does_this_repo_have_gitattributes_and_why_are_answer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-out/memory/query_20260909_175204_why_does_this_repo_have__gitattributes_and_why_are.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "memory_query_20260909_175204_why_does_this_repo_have_gitattributes_and_why_are_q_why_does_this_repo_have_gitattributes_and_why_are_graphify_cache_and_graph_html_untracked",
+      "target": "memory_query_20260909_175204_why_does_this_repo_have_gitattributes_and_why_are_source_nodes",
       "confidence_score": 1.0
     },
     {
@@ -3020,5 +3218,5 @@
       "source_file": "src/Constants/categories.ts"
     }
   ],
-  "built_at_commit": "4c6ee4c7851954215ae0eaafe3c34e5581a517d6"
+  "built_at_commit": "7b1fc51543e7465c991d6da34f68656d2a0b624e"
 }

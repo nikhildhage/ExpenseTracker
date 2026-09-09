@@ -1,16 +1,16 @@
-# Graph Report - ExpenseTracker  (2026-07-31)
+# Graph Report - ExpenseTracker  (2026-09-09)
 
 ## Corpus Check
-- 17 files · ~15,127 words
+- 20 files · ~15,719 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 135 nodes · 147 edges · 32 communities (13 shown, 19 thin omitted)
+- 147 nodes · 156 edges · 35 communities (16 shown, 19 thin omitted)
 - Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 12 edges (avg confidence: 0.81)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4c6ee4c7`
+- Built from commit: `7b1fc515`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -24,12 +24,12 @@
 - [[_COMMUNITY_Vendor Splitting Rationale|Vendor Splitting Rationale]]
 - [[_COMMUNITY_Vite Manual Chunks|Vite Manual Chunks]]
 - [[_COMMUNITY_Workspace Config|Workspace Config]]
+- [[_COMMUNITY_Vite Env Types|Vite Env Types]]
 - [[_COMMUNITY_Vite Logo Asset|Vite Logo Asset]]
 - [[_COMMUNITY_App Background Image|App Background Image]]
-- [[_COMMUNITY_Geometric Design|Geometric Design]]
+- [[_COMMUNITY_Color Palette|Color Palette]]
+- [[_COMMUNITY_Diamond Shapes|Diamond Shapes]]
 - [[_COMMUNITY_White Center Element|White Center Element]]
-- [[_COMMUNITY_App Screenshot|App Screenshot]]
-- [[_COMMUNITY_Income Card UI|Income Card UI]]
 - [[_COMMUNITY_Form Card UI|Form Card UI]]
 - [[_COMMUNITY_Expense Card UI|Expense Card UI]]
 - [[_COMMUNITY_Total Balance UI|Total Balance UI]]
@@ -44,6 +44,9 @@
 - [[_COMMUNITY_Community 29|Community 29]]
 - [[_COMMUNITY_Community 30|Community 30]]
 - [[_COMMUNITY_Community 31|Community 31]]
+- [[_COMMUNITY_Community 32|Community 32]]
+- [[_COMMUNITY_Community 33|Community 33]]
+- [[_COMMUNITY_Community 34|Community 34]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `<a name="quick-start">🤸 Quick Start</a>` - 9 edges
@@ -74,7 +77,7 @@
 - **App Bootstrap Chain (HTML to Render)** — index_html_root, main_root_render, app_app, dashboard_dashboard [EXTRACTED 1.00]
 - **Income/Expense Category Data Flow** — categories_incomecolors, categories_incomecategorylabels, categories_incomecategories, details_details [EXTRACTED 1.00]
 
-## Communities (32 total, 19 thin omitted)
+## Communities (35 total, 19 thin omitted)
 
 ### Community 0 - "Details & Categories"
 Cohesion: 0.21
@@ -112,12 +115,24 @@ Nodes (3): Answer, Q: Why does git push to nikhildhage/ExpenseTracker fail with 
 Cohesion: 0.5
 Nodes (3): Answer, Q: What unpushed work exists in ExpenseTracker and what is the PR state?, Source Nodes
 
+### Community 9 - "Vite Env Types"
+Cohesion: 0.5
+Nodes (3): Answer, Q: Is the git push 403 to nikhildhage/ExpenseTracker still blocking, and what is the branch sync state?, Source Nodes
+
 ### Community 10 - "Vite Logo Asset"
+Cohesion: 0.5
+Nodes (3): Answer, Q: What unpushed work exists in ExpenseTracker and what is the PR and branch state?, Source Nodes
+
+### Community 11 - "App Background Image"
+Cohesion: 0.5
+Nodes (3): Answer, Q: Why does this repo have .gitattributes and why are graphify cache and graph.html untracked?, Source Nodes
+
+### Community 13 - "Color Palette"
 Cohesion: 0.67
 Nodes (3): Vendor Chunk Splitting for Caching, Vite Build Config (manualChunks), manualChunks Vendor Splitter
 
 ## Knowledge Gaps
-- **50 isolated node(s):** `graphify`, `📋 <a name="table">Table of Contents</a>`, `<a name="introduction">🤖 Introduction</a>`, `<a name="visit">🤖 Visit</a>`, `<a name="tech-stack">⚙️ Tech Stack</a>` (+45 more)
+- **56 isolated node(s):** `graphify`, `📋 <a name="table">Table of Contents</a>`, `<a name="introduction">🤖 Introduction</a>`, `<a name="visit">🤖 Visit</a>`, `<a name="tech-stack">⚙️ Tech Stack</a>` (+51 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **19 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -125,11 +140,11 @@ Nodes (3): Vendor Chunk Splitting for Caching, Vite Build Config (manualChunks),
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `DashBoard Component` connect `Form & Main Logic` to `App Bootstrap & Theme`?**
-  _High betweenness centrality (0.020) - this node is a cross-community bridge._
+  _High betweenness centrality (0.017) - this node is a cross-community bridge._
 - **Why does `<a name="quick-start">🤸 Quick Start</a>` connect `Chart Data Pipeline` to `Vendor Splitting Rationale`?**
-  _High betweenness centrality (0.020) - this node is a cross-community bridge._
+  _High betweenness centrality (0.017) - this node is a cross-community bridge._
 - **What connects `graphify`, `📋 <a name="table">Table of Contents</a>`, `<a name="introduction">🤖 Introduction</a>` to the rest of the system?**
-  _50 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _56 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Form & Main Logic` be split into smaller, more focused modules?**
   _Cohesion score 0.12 - nodes in this community are weakly interconnected._
 - **Should `Chart Data Pipeline` be split into smaller, more focused modules?**
