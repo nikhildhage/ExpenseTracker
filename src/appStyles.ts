@@ -12,7 +12,7 @@ import type { SxProps, Theme } from "@mui/material/styles";
 // rules are expressed as `down("md")` to keep the original behaviour.
 // See https://mui.com/material-ui/migration/v5-component-changes/ (Theme >
 // Breakpoints) and https://v6.mui.com/material-ui/customization/breakpoints/.
-const useStyles = () => {
+const useStyles = (): Record<string, SxProps<Theme>> => {
   const theme = useTheme();
   return {
     // Hidden on sm and wider.
@@ -38,7 +38,7 @@ const useStyles = () => {
         paddingBottom: "200px",
       },
     },
-  } satisfies Record<string, SxProps<Theme>>;
+  };
 };
 
 export default useStyles;
