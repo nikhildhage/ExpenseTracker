@@ -45,8 +45,9 @@ type DetailsProps = {
 const Details = ({ title, type }: DetailsProps) => {
   const classes = useStyles();
   const backgroundColors = type === "Income" ? incomeColors : expenseColors;
-  const chartLabels =
-    type === "Income" ? incomeCategoryLabels : expenseCategoryLabels;
+  const chartLabels = type === "Income"
+    ? incomeCategoryLabels
+    : expenseCategoryLabels;
   let totalValue = "$50";
   const dChartData = [12, 19, 3, 5];
 

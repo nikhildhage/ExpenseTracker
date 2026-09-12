@@ -1,15 +1,15 @@
 {
   "/mnt/c/Dev/JSProjects/ExpenseTracker/vite.config.ts": {
-    "mtime": 1788972017.8177943,
-    "hash": "0811aa7b26b5ac3d293c86c3594cbe75"
+    "mtime": 1789188861.0642188,
+    "hash": "43a04cf7816b187e123efe53c636d45d"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/App.tsx": {
     "mtime": 1779078840.7150314,
     "hash": "feacad40b11525e48a39f12dd6ff3705"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/appStyles.ts": {
-    "mtime": 1784942235.8449917,
-    "hash": "890259e3db30a84dcb32734dae9f6b70"
+    "mtime": 1789188634.3962338,
+    "hash": "e8aee26016406207f9d4d9a9ad381db8"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/DashBoard.tsx": {
     "mtime": 1785254613.3095448,
@@ -24,28 +24,28 @@
     "hash": "0352474ba2918efe13895edbc3780d94"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Details/Details.tsx": {
-    "mtime": 1785258828.7495022,
-    "hash": "0a8e332ed7fded8ae0c94790326042dc"
+    "mtime": 1789188861.119703,
+    "hash": "ef1c0cf7df5a95b9e0cc9d3059d756fd"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Details/detailStyles.ts": {
-    "mtime": 1784942235.8170948,
-    "hash": "4367a62055cfcb463a94200257189015"
+    "mtime": 1789188634.3758144,
+    "hash": "0371eecc9018268831aaeb8eb20a8a7d"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Main.tsx": {
-    "mtime": 1784942235.8401773,
-    "hash": "e4cceacce8b96919f6db3005f57973b9"
+    "mtime": 1789188634.3962338,
+    "hash": "dea0b48f690a38a113cc0fea1745d3fc"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/mainStyles.ts": {
-    "mtime": 1784942235.8449917,
-    "hash": "a0c8e29b0bd76f9ad6844777f8a50c6e"
+    "mtime": 1789188875.1396172,
+    "hash": "5a07aefbf855b6d19d713912bc24e903"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Form/Form.tsx": {
-    "mtime": 1785258828.7633843,
-    "hash": "c82248958200f9be06f4051e0838d147"
+    "mtime": 1789188634.388321,
+    "hash": "b08043f3c0f9393b1505ad2d71184e09"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Components/Main/Form/formStyles.ts": {
-    "mtime": 1784942235.8225384,
-    "hash": "a0db1dc386fd15a8225a2d1d645c7838"
+    "mtime": 1789188634.393322,
+    "hash": "d52b9ffc2221fc76cb8fd5333268af96"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/src/Constants/categories.ts": {
     "mtime": 1779078840.7238054,
@@ -56,35 +56,35 @@
     "hash": "dce8fd33084425f4bb304f418ff8b409"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/index.html": {
-    "mtime": 1785258828.2515366,
-    "hash": "66cd7e734bb71ecc06c0e5293053c562"
+    "mtime": 1789188861.0628326,
+    "hash": "ce8f8c3d073582990c79472b30326abf"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/ReadMe.md": {
-    "mtime": 1785258828.742563,
-    "hash": "45ee247c924a90babb5ac64105ca7544"
+    "mtime": 1789188861.0558448,
+    "hash": "9eef9f8f4d38690a670faed4a6f64a96"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/graphify-out/memory/query_20260731_165041_why_does_git_push_to_nikhildhage_expensetracker_fa.md": {
-    "mtime": 1788972017.8087938,
+    "mtime": 1789188633.9950802,
     "hash": "42d59a964d28d698af658f526286b219"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/graphify-out/memory/query_20260731_165052_what_unpushed_work_exists_in_expensetracker_and_wh.md": {
-    "mtime": 1788972017.8137963,
+    "mtime": 1789188633.998081,
     "hash": "ed5b37bbbd67e296533aa0a1cf85662a"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/graphify-out/memory/query_20260909_175143_is_the_git_push_403_to_nikhildhage_expensetracker.md": {
-    "mtime": 1788977283.954135,
+    "mtime": 1789188634.0010808,
     "hash": "8f442e84d3a3ea85a8fb5a77fa88321a"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/graphify-out/memory/query_20260909_175155_what_unpushed_work_exists_in_expensetracker_and_wh.md": {
-    "mtime": 1788976314.9415934,
+    "mtime": 1789188634.0040822,
     "hash": "1c5e5d93f01d636eaaf9d0e90615d783"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/graphify-out/memory/query_20260909_175204_why_does_this_repo_have__gitattributes_and_why_are.md": {
-    "mtime": 1788976324.3280573,
+    "mtime": 1789188634.0060816,
     "hash": "74b7734c520cc04d0ea203f77251aaaa"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/graphify-out/memory/query_20260909_180814_can_claude_code_push_to_this_repo_itself__and_what.md": {
-    "mtime": 1788977294.2168164,
+    "mtime": 1789188634.0090804,
     "hash": "a1e111f07724ca21f43b5fb7aa50d792"
   },
   "/mnt/c/Dev/JSProjects/ExpenseTracker/public/vite.svg": {

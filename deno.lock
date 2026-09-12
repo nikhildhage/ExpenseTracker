@@ -12,8 +12,6 @@
     "npm:@vitejs/plugin-react@^4.3.1": "4.7.0_vite@5.4.21__terser@5.47.1_terser@5.47.1",
     "npm:chart.js@^4.4.4": "4.5.1",
     "npm:depcheck@^1.4.7": "1.4.7",
-    "npm:prettier@*": "3.9.6",
-    "npm:prettier@3.9.6": "3.9.6",
     "npm:react-chartjs-2@^5.2.0": "5.3.1_chart.js@4.5.1_react@18.3.1",
     "npm:react-dom@^18.3.1": "18.3.1_react@18.3.1",
     "npm:react@^18.3.1": "18.3.1",
@@ -1272,10 +1270,6 @@
         "picocolors",
         "source-map-js"
       ]
-    },
-    "prettier@3.9.6": {
-      "integrity": "sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==",
-      "bin": true
     },
     "prop-types@15.8.1": {
       "integrity": "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==",

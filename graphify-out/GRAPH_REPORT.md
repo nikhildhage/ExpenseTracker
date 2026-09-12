@@ -1,16 +1,16 @@
-# Graph Report - ExpenseTracker  (2026-09-09)
+# Graph Report - ExpenseTracker  (2026-09-12)
 
 ## Corpus Check
-- 21 files · ~15,999 words
+- 21 files · ~16,129 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 151 nodes · 159 edges · 36 communities (17 shown, 19 thin omitted)
-- Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 12 edges (avg confidence: 0.81)
+- 155 nodes · 163 edges · 36 communities (17 shown, 19 thin omitted)
+- Extraction: 93% EXTRACTED · 7% INFERRED · 0% AMBIGUOUS · INFERRED: 12 edges (avg confidence: 0.81)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3a41d878`
+- Built from commit: `1f54832b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -81,7 +81,7 @@
 ## Communities (36 total, 19 thin omitted)
 
 ### Community 0 - "Details & Categories"
-Cohesion: 0.21
+Cohesion: 0.2
 Nodes (14): expenseCategories, expenseCategoryLabels, expenseColors, incomeCategories, incomeCategoryLabels, incomeColors, resetCategories(), Card (+6 more)
 
 ### Community 1 - "Form & Main Logic"
@@ -89,16 +89,16 @@ Cohesion: 0.12
 Nodes (19): App Component, App useStyles Hook, Project graphify Rules, DashBoard Component, DashBoardProps Type, Details useStyles Hook, Form Component, Form getFormData (+11 more)
 
 ### Community 2 - "Chart Data Pipeline"
-Cohesion: 0.14
-Nodes (14): <a name="quick-start">🤸 Quick Start</a>, **Build**, **Cloning the Repository**, code:bash (git clone https://github.com/nikhildhage/ExpenseTracker.git), code:bash (deno install), code:bash (deno task build), code:env (#MONGODB), code:bash (deno task dev) (+6 more)
+Cohesion: 0.18
+Nodes (4): Form(), FormProps, Main(), MainProps
 
 ### Community 3 - "App Entry & Dashboard"
-Cohesion: 0.21
+Cohesion: 0.19
 Nodes (5): App(), DashBoard(), DashBoardProps, root, theme
 
 ### Community 4 - "Form/Main Components"
-Cohesion: 0.21
-Nodes (4): Form(), FormProps, Main(), MainProps
+Cohesion: 0.14
+Nodes (14): <a name="quick-start">🤸 Quick Start</a>, **Build**, **Cloning the Repository**, code:bash (git clone https://github.com/nikhildhage/ExpenseTracker.git), code:bash (deno install), code:bash (deno task build), code:env (#MONGODB), code:bash (deno task dev) (+6 more)
 
 ### Community 5 - "App Bootstrap & Theme"
 Cohesion: 0.26
@@ -145,12 +145,12 @@ Nodes (3): Vendor Chunk Splitting for Caching, Vite Build Config (manualChunks),
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `DashBoard Component` connect `Form & Main Logic` to `App Bootstrap & Theme`?**
-  _High betweenness centrality (0.016) - this node is a cross-community bridge._
-- **Why does `<a name="quick-start">🤸 Quick Start</a>` connect `Chart Data Pipeline` to `Vendor Splitting Rationale`?**
-  _High betweenness centrality (0.016) - this node is a cross-community bridge._
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
+- **Why does `<a name="quick-start">🤸 Quick Start</a>` connect `Form/Main Components` to `Vendor Splitting Rationale`?**
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
 - **What connects `graphify`, `📋 <a name="table">Table of Contents</a>`, `<a name="introduction">🤖 Introduction</a>` to the rest of the system?**
   _58 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Form & Main Logic` be split into smaller, more focused modules?**
   _Cohesion score 0.12 - nodes in this community are weakly interconnected._
-- **Should `Chart Data Pipeline` be split into smaller, more focused modules?**
+- **Should `Form/Main Components` be split into smaller, more focused modules?**
   _Cohesion score 0.14 - nodes in this community are weakly interconnected._

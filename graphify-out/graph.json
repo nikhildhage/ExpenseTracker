@@ -85,6 +85,15 @@
       "norm_label": "appstyles.ts"
     },
     {
+      "label": "useStyles()",
+      "file_type": "code",
+      "source_file": "src/appStyles.ts",
+      "source_location": "L6",
+      "id": "src_appstyles_usestyles",
+      "community": 3,
+      "norm_label": "usestyles()"
+    },
+    {
       "label": "DashBoard.tsx",
       "file_type": "code",
       "source_file": "src/DashBoard.tsx",
@@ -229,12 +238,21 @@
       "norm_label": "detailstyles.ts"
     },
     {
+      "label": "useStyles()",
+      "file_type": "code",
+      "source_file": "src/Components/Details/detailStyles.ts",
+      "source_location": "L5",
+      "id": "details_detailstyles_usestyles",
+      "community": 0,
+      "norm_label": "usestyles()"
+    },
+    {
       "label": "Main.tsx",
       "file_type": "code",
       "source_file": "src/Components/Main/Main.tsx",
       "source_location": "L1",
       "id": "src_components_main_main_tsx",
-      "community": 4,
+      "community": 2,
       "norm_label": "main.tsx"
     },
     {
@@ -243,7 +261,7 @@
       "source_file": "src/Components/Main/Main.tsx",
       "source_location": "L13",
       "id": "main_main_mainprops",
-      "community": 4,
+      "community": 2,
       "norm_label": "mainprops"
     },
     {
@@ -252,7 +270,7 @@
       "source_file": "src/Components/Main/Main.tsx",
       "source_location": "L18",
       "id": "main_main_main",
-      "community": 4,
+      "community": 2,
       "norm_label": "main()"
     },
     {
@@ -261,8 +279,17 @@
       "source_file": "src/Components/Main/mainStyles.ts",
       "source_location": "L1",
       "id": "src_components_main_mainstyles_ts",
-      "community": 4,
+      "community": 2,
       "norm_label": "mainstyles.ts"
+    },
+    {
+      "label": "useStyles()",
+      "file_type": "code",
+      "source_file": "src/Components/Main/mainStyles.ts",
+      "source_location": "L6",
+      "id": "main_mainstyles_usestyles",
+      "community": 2,
+      "norm_label": "usestyles()"
     },
     {
       "label": "Form.tsx",
@@ -270,7 +297,7 @@
       "source_file": "src/Components/Main/Form/Form.tsx",
       "source_location": "L1",
       "id": "src_components_main_form_form_tsx",
-      "community": 4,
+      "community": 2,
       "norm_label": "form.tsx"
     },
     {
@@ -279,7 +306,7 @@
       "source_file": "src/Components/Main/Form/Form.tsx",
       "source_location": "L15",
       "id": "form_form_formprops",
-      "community": 4,
+      "community": 2,
       "norm_label": "formprops"
     },
     {
@@ -288,7 +315,7 @@
       "source_file": "src/Components/Main/Form/Form.tsx",
       "source_location": "L22",
       "id": "form_form_form",
-      "community": 4,
+      "community": 2,
       "norm_label": "form()"
     },
     {
@@ -297,8 +324,17 @@
       "source_file": "src/Components/Main/Form/formStyles.ts",
       "source_location": "L1",
       "id": "src_components_main_form_formstyles_ts",
-      "community": 4,
+      "community": 2,
       "norm_label": "formstyles.ts"
+    },
+    {
+      "label": "useStyles()",
+      "file_type": "code",
+      "source_file": "src/Components/Main/Form/formStyles.ts",
+      "source_location": "L5",
+      "id": "form_formstyles_usestyles",
+      "community": 2,
+      "norm_label": "usestyles()"
     },
     {
       "label": "categories.ts",
@@ -450,7 +486,7 @@
       "source_file": "ReadMe.md",
       "source_location": "L80",
       "id": "expensetracker_readme_a_name_quick_start_quick_start_a",
-      "community": 2,
+      "community": 4,
       "norm_label": "<a name=\"quick-start\">\ud83e\udd38 quick start</a>"
     },
     {
@@ -459,7 +495,7 @@
       "source_file": "ReadMe.md",
       "source_location": "L84",
       "id": "expensetracker_readme_prerequisites",
-      "community": 2,
+      "community": 4,
       "norm_label": "**prerequisites**"
     },
     {
@@ -468,7 +504,7 @@
       "source_file": "ReadMe.md",
       "source_location": "L91",
       "id": "expensetracker_readme_cloning_the_repository",
-      "community": 2,
+      "community": 4,
       "norm_label": "**cloning the repository**"
     },
     {
@@ -477,7 +513,7 @@
       "source_file": "ReadMe.md",
       "source_location": "L93",
       "id": "expensetracker_readme_codeblock_1",
-      "community": 2,
+      "community": 4,
       "norm_label": "code:bash (git clone https://github.com/nikhildhage/expensetracker.git)"
     },
     {
@@ -486,7 +522,7 @@
       "source_file": "ReadMe.md",
       "source_location": "L98",
       "id": "expensetracker_readme_installation",
-      "community": 2,
+      "community": 4,
       "norm_label": "**installation**"
     },
     {
@@ -495,7 +531,7 @@
       "source_file": "ReadMe.md",
       "source_location": "L103",
       "id": "expensetracker_readme_codeblock_2",
-      "community": 2,
+      "community": 4,
       "norm_label": "code:bash (deno install)"
     },
     {
@@ -504,7 +540,7 @@
       "source_file": "ReadMe.md",
       "source_location": "L107",
       "id": "expensetracker_readme_build",
-      "community": 2,
+      "community": 4,
       "norm_label": "**build**"
     },
     {
@@ -513,7 +549,7 @@
       "source_file": "ReadMe.md",
       "source_location": "L115",
       "id": "expensetracker_readme_codeblock_3",
-      "community": 2,
+      "community": 4,
       "norm_label": "code:bash (deno task build)"
     },
     {
@@ -522,7 +558,7 @@
       "source_file": "ReadMe.md",
       "source_location": "L119",
       "id": "expensetracker_readme_vite_config",
-      "community": 2,
+      "community": 4,
       "norm_label": "**vite config**"
     },
     {
@@ -531,7 +567,7 @@
       "source_file": "ReadMe.md",
       "source_location": "L130",
       "id": "expensetracker_readme_containerization",
-      "community": 2,
+      "community": 4,
       "norm_label": "**containerization**"
     },
     {
@@ -540,7 +576,7 @@
       "source_file": "ReadMe.md",
       "source_location": "L141",
       "id": "expensetracker_readme_set_up_environment_variables",
-      "community": 2,
+      "community": 4,
       "norm_label": "**set up environment variables**"
     },
     {
@@ -549,7 +585,7 @@
       "source_file": "ReadMe.md",
       "source_location": "L146",
       "id": "expensetracker_readme_codeblock_4",
-      "community": 2,
+      "community": 4,
       "norm_label": "code:env (#mongodb)"
     },
     {
@@ -558,7 +594,7 @@
       "source_file": "ReadMe.md",
       "source_location": "L161",
       "id": "expensetracker_readme_running_the_project",
-      "community": 2,
+      "community": 4,
       "norm_label": "**running the project**"
     },
     {
@@ -567,7 +603,7 @@
       "source_file": "ReadMe.md",
       "source_location": "L166",
       "id": "expensetracker_readme_codeblock_5",
-      "community": 2,
+      "community": 4,
       "norm_label": "code:bash (deno task dev)"
     },
     {
@@ -890,7 +926,7 @@
       "file_type": "code",
       "source_file": "Components/Main/Main.tsx",
       "source_location": "L1",
-      "community": 4,
+      "community": 2,
       "norm_label": "main.tsx",
       "id": "components_main_main_tsx"
     },
@@ -899,7 +935,7 @@
       "file_type": "code",
       "source_file": "Components/Main/mainStyles.ts",
       "source_location": "L1",
-      "community": 4,
+      "community": 2,
       "norm_label": "mainstyles.ts",
       "id": "components_main_mainstyles_ts"
     },
@@ -908,7 +944,7 @@
       "file_type": "code",
       "source_file": "Components/Main/Form/Form.tsx",
       "source_location": "L1",
-      "community": 4,
+      "community": 2,
       "norm_label": "form.tsx",
       "id": "components_main_form_form_tsx"
     },
@@ -917,7 +953,7 @@
       "file_type": "code",
       "source_file": "Components/Main/Form/formStyles.ts",
       "source_location": "L1",
-      "community": 4,
+      "community": 2,
       "norm_label": "formstyles.ts",
       "id": "components_main_form_formstyles_ts"
     },
@@ -1695,6 +1731,16 @@
       "target": "src_app_app"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/appStyles.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_appstyles_ts",
+      "target": "src_appstyles_usestyles",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -2003,6 +2049,16 @@
       "target": "details_details_details"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Components/Details/detailStyles.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_details_detailstyles_ts",
+      "target": "details_detailstyles_usestyles",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -2065,6 +2121,16 @@
       "target": "main_main_main"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Components/Main/mainStyles.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_main_mainstyles_ts",
+      "target": "main_mainstyles_usestyles",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -2114,6 +2180,16 @@
       "confidence_score": 1.0,
       "source": "components_main_form_form_tsx",
       "target": "form_form_form"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Components/Main/Form/formStyles.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_main_form_formstyles_ts",
+      "target": "form_formstyles_usestyles",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2675,9 +2751,9 @@
       "source_file": "graphify-out/memory/query_20260909_180814_can_claude_code_push_to_this_repo_itself__and_what.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_out_memory_query_20260909_180814_can_claude_code_push_to_this_repo_itself_and_what_md",
-      "target": "memory_query_20260909_180814_can_claude_code_push_to_this_repo_itself_and_what_q_can_claude_code_push_to_this_repo_itself_and_what_does_the_auto_mode_classifier_block",
-      "confidence_score": 1.0
+      "target": "memory_query_20260909_180814_can_claude_code_push_to_this_repo_itself_and_what_q_can_claude_code_push_to_this_repo_itself_and_what_does_the_auto_mode_classifier_block"
     },
     {
       "relation": "contains",
@@ -2685,9 +2761,9 @@
       "source_file": "graphify-out/memory/query_20260909_180814_can_claude_code_push_to_this_repo_itself__and_what.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "memory_query_20260909_180814_can_claude_code_push_to_this_repo_itself_and_what_q_can_claude_code_push_to_this_repo_itself_and_what_does_the_auto_mode_classifier_block",
-      "target": "memory_query_20260909_180814_can_claude_code_push_to_this_repo_itself_and_what_answer",
-      "confidence_score": 1.0
+      "target": "memory_query_20260909_180814_can_claude_code_push_to_this_repo_itself_and_what_answer"
     },
     {
       "relation": "contains",
@@ -2695,9 +2771,9 @@
       "source_file": "graphify-out/memory/query_20260909_180814_can_claude_code_push_to_this_repo_itself__and_what.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "memory_query_20260909_180814_can_claude_code_push_to_this_repo_itself_and_what_q_can_claude_code_push_to_this_repo_itself_and_what_does_the_auto_mode_classifier_block",
-      "target": "memory_query_20260909_180814_can_claude_code_push_to_this_repo_itself_and_what_source_nodes",
-      "confidence_score": 1.0
+      "target": "memory_query_20260909_180814_can_claude_code_push_to_this_repo_itself_and_what_source_nodes"
     },
     {
       "relation": "imports_from",
@@ -3284,5 +3360,5 @@
       "source_file": "src/Constants/categories.ts"
     }
   ],
-  "built_at_commit": "3a41d87870609b9cd076283d797f0918dbf264dc"
+  "built_at_commit": "1f54832bda1b73f802e8a7a5a7d1ae694deffbcf"
 }

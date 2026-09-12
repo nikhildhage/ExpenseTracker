@@ -29,7 +29,7 @@ const useStyles = (): Record<string, SxProps<Theme>> => {
       paddingTop: 0,
     },
     divider: {
-      margin: "20px 20px, 0, 0",
+      margin: "20px 20px 0 0",
       padding: "0",
     },
   };
