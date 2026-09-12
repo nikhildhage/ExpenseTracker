@@ -1,6 +1,8 @@
-import { makeStyles } from "@mui/styles";
+import type { SxProps, Theme } from "@mui/material/styles";
 
-export default makeStyles(() => ({
+// Migrated off the deprecated @mui/styles `makeStyles` to MUI v6's `sx` API.
+// Returns a map of `SxProps` objects; apply with `sx={classes.<key>}`.
+const useStyles = (): Record<string, SxProps<Theme>> => ({
   radioGroup: {
     display: "flex",
     justifyContent: "center",
@@ -16,4 +18,6 @@ export default makeStyles(() => ({
     //paddingLeft: "20px",
     //paddingRight: "20px",
   },
-}));
+});
+
+export default useStyles;

@@ -69,7 +69,7 @@ const Details = ({ title, type }: DetailsProps) => {
   return (
     <Suspense fallback={<div>Loading chart...</div>}>
       <Card
-        className={type === "Income" ? classes.income : classes.expense}
+        sx={type === "Income" ? classes.income : classes.expense}
         elevation={24}
       >
         <CardHeader title={title} />
