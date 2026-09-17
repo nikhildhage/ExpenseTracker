@@ -13,9 +13,14 @@ Rules:
   GRAPH_REPORT.md.
 - IF BOTH the graphify-out/ directory AND graphify-out/GRAPH_REPORT.md exist:
   read that existing GRAPH_REPORT.md and use it as-is. Do NOT regenerate,
-  rebuild, or refresh the graph. The only things that produce a new version are
-  the user running `graphify update .` or the user regenerating the graphify
-  files themselves.
+  rebuild, or refresh the graph on your own initiative. A new version is
+  produced only when the user runs `graphify update .` or regenerates the
+  graphify files themselves, or when they accept the offer described below.
+- IF BOTH the graphify-out/ directory AND graphify-out/GRAPH_REPORT.md exist:
+  after editing code, and/or when committing or pushing changes to the local
+  or remote repo, OFFER to bring the graph up to date by running
+  `graphify update .` (AST-only, no API cost). Ask and wait for the user to
+  agree — never run it unprompted. If they decline, proceed without it.
 - ONLY IF graphify-out/ does not exist, OR it exists but has no
   GRAPH_REPORT.md: the graph needs to be generated. Tell the user it is missing
   and offer to run graphify — but let them generate it manually with `graphify`
