@@ -25,9 +25,12 @@ Rules:
   GRAPH_REPORT.md: the graph needs to be generated. Tell the user it is missing
   and offer to run graphify — but let them generate it manually with `graphify`
   if they prefer. Do not silently generate it.
-- ALWAYS read graphify-out/GRAPH_REPORT.md before reading any source files,
-  running grep/glob searches, or answering codebase questions. The graph is your
-  primary map of the codebase.
+- WHEN the report exists (per the check above), read
+  graphify-out/GRAPH_REPORT.md before reading any source files, running
+  grep/glob searches, or answering codebase questions. It is your primary map
+  of the codebase. When it does not exist, fall back to reading files and
+  searching directly — the missing graph is not a reason to stop or to
+  generate one unasked.
 - IF graphify-out/wiki/index.md EXISTS, navigate it instead of reading raw files
 - For cross-module "how does X relate to Y" questions, prefer
   `graphify query "<question>"`, `graphify path "<A>" "<B>"`, or
