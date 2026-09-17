@@ -29,8 +29,7 @@ dist-ssr
 *.sw?
 
 # Generated knowledge-graph artifacts (regenerate with `graphify update .`)
-graphify-out/cache/
-graphify-out/graph.html
+graphify-out/
 
 # Machine-local Claude Code permissions
 .claude/settings.local.json
